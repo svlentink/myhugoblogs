@@ -70,4 +70,4 @@ an amount [..] similar to the level of information released by stock exchanges"
 
 + "The proof-of-work also solves the problem of determining representation in majority decision making."
 
-![Open with draw.io to edit](../SAM.png "Open with draw.io to edit")
+![Open with draw.io to edit](SAM.png "Open with draw.io to edit")
