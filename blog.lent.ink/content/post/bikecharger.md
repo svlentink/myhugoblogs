@@ -31,8 +31,8 @@ What you need to know:
 
 ## Position on board
 
-![board](bikechargeboard1.png "board")
+![board](/img/bikechargeboard1.png "board")
 
 ## Connecting wires
 
-![board](bikechargeboard2.png "board")
+![board](/img/bikechargeboard2.png "board")
