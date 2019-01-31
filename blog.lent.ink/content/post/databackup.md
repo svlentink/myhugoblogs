@@ -15,6 +15,7 @@ not enterprise or
 [governments](https://www.us-cert.gov/sites/default/files/publications/data_backup_options.pdf),
 which require multiple access groups and clearances.
 
+
 ## Approach
 
 Before we start and make all our data redundant,
@@ -27,18 +28,29 @@ We want our data to be;
 + clear directory structure; e.g. `./meetings/20181120.md` not ~~./meeting_20181120.md~~
 + independant of data carrier; e.g. hdd, dropbox, icloud, etc.
 
+When using dates in filenames,
+try to stick to the
+[ISO8061](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) format (YYYYMMDD),
+which allows you to sort on date.
+
+
 #### attributes
 When thinking of the attributes we can give to our data,
 we find 5 important indicators,
-of which the first, revision,
+of which the first, version control (revision),
 is not independent of the platform.
+E.g. Git systems provide very different version control than
+online collaborative document editing systems such as Google Docs.
+They all allow you to go to previous versions,
+some as snapshots and others by adding the new state
+(not changing the history), examples are a transactional database or blockchain.
 
 We will first show the raw data
 and then discuss it;
 ```yaml
 parameters:
   revision:
-    desc: is version control (VCS) a required
+    desc: is version control (VCS) required?
     value:
       0:
         desc: No
@@ -47,7 +59,7 @@ parameters:
       1:
         desc: Yes
         examples:
-          - document format which allow it
+          - Markdown in Git as technical documentation
   value:
     desc: impact when lost, importance
     values:
@@ -177,6 +189,13 @@ home users do not.
 
 A subset of **free** storage providers:
 
+we read this as:
+a _public repo._ on _Github_ allows **R**evision,
+is not **C**onfidential,
+allows MBs as storage **S**ize and
+is highly **A**vailable.
+
+
 | provider | storage type | R | C | S | A |
 | --- | --- | --- | --- | --- | --- |
 | github | public repo. | 1 | 0 | 1 | 3 |
@@ -192,11 +211,11 @@ A subset of **free** storage providers:
 | usb hdd | local | 0 | 3 | 2 | 1 |
 | NAS at home | local | 0 | 3 | 3 | 2 |
 
-see
+
+More providers can be found
 [here](https://www.moneysavingexpert.com/shopping/free-online-storage/)
 or
-[here](https://www.cloudwards.net/cloud-storage-for-linux/)
-for more providers.
+[here](https://www.cloudwards.net/cloud-storage-for-linux/).
 
 We all know people who write down lists of contacts details,
 weight or [passwords](https://lent.ink/projects/pwd),
