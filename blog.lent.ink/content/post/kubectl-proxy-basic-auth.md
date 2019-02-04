@@ -52,6 +52,7 @@ You can now test if you can access your dashboard via the default proxy:
 kubectl proxy --address=0.0.0.0 --accept-hosts='^.*$'
 ```
 which will launch it on `YOUR_IP:8001`
+
 - `/api/v1/namespaces/kube-system/services/monitoring-grafana/proxy`
 - `/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy`
 
