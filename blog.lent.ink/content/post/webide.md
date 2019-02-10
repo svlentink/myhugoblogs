@@ -28,7 +28,7 @@ _star count and dates added on 2019/02/10_
 
 My search continued.
 I needed a simple IDE to allow people (non-tech)
-to edit Markdown files and upload pictures for a static website generator/blog.
+to edit Markdown files and upload pictures for a static blog/website generator.
 
 ## Lightweight WebIDE
 
