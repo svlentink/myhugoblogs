@@ -1,5 +1,5 @@
 ---
-title: "Coding in the cloud"
+title: "List of self hosted web based IDEs"
 date: "2019-02-10"
 draft: false
 tags: ["coding"]
@@ -10,6 +10,7 @@ Developers write code in an integrated development environment (IDE),
 which is usually installed on their workstation.
 A WebIDE runs in the cloud,
 allowing one to work from any device that has a browser.
+In this article we only consider open source products.
 
 I've used a WebIDE for more than a year now and love it.
 It has allowed me to use a chromebook now and do everything in the cloud.
@@ -38,6 +39,9 @@ Options I found were:
 | [Codiad](https://github.com/Codiad/Codiad) | PHP | 2504 | Oct 31, 2018 | unmaintained |
 | [ICEcoder](https://github.com/icecoder/ICEcoder) | PHP | 1038 | Dec 14, 2018 |
 | [Eclipse orion.client](https://github.com/eclipse/orion.client) | Node.js | 175 | Feb 7, 2019 |
+
+About one we read:
+_Codiad is a web-based IDE framework with a small footprint and minimal requirements._
 
 ## Heavyweight WebIDE
 
