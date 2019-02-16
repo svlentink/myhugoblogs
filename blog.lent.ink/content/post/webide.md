@@ -16,14 +16,14 @@ I've used a WebIDE for more than a year now and love it.
 It has allowed me to use a chromebook now and do everything in the cloud.
 
 Let's start with my current IDE,
-Cloud9,
+ACE/Cloud9,
 which became part of
 [AWS](https://c9.io/announcement)
 making it likely to be maintained.
 
 | Editor | Backend | Stars | Last commit |
 | --- | --- | --- | --- |
-| [Cloud9](https://github.com/c9/core) | Node.js | 2181 | Oct 17, 2018 |
+| [ACE/Cloud9](https://github.com/ajaxorg/ace) | Node.js | 19148 | Feb 4, 2019 |
 _star count and dates added on 2019/02/10_
 
 My search continued.
