@@ -42,6 +42,11 @@ Options I found were:
 
 About one we read:
 _Codiad is a web-based IDE framework with a small footprint and minimal requirements._
+which I
+[tried](https://github.com/svlentink/dockerfiles/tree/master/docker-compose/codiad)
+and gave a good first impression.
+Orion gave errors on
+[my setup](https://github.com/svlentink/dockerfiles/tree/master/svlentink/orion.client).
 
 ## Heavyweight WebIDE
 
@@ -78,3 +83,6 @@ the filebrowser code base was a mess.
 
 NOTE: we do not consider Gitlab (self hosted Git) a WebIDE,
 but it can serve as a webportal to edit files.
+OwnCloud and other
+[Web File Managers](https://github.com/Kickball/awesome-selfhosted#web-based-file-managers)
+can provide similar features.
