@@ -17,7 +17,7 @@ eager to create and learn,
 diligent and always looking to get the job done.
 
 
-<img src="http://cdn.lent.ink/img/chair.jpg">
+<img src="https://cdn.lent.ink/img/chair.jpg">
 
 
 Love to gain more experience with container orchestration such as kubernetes.
