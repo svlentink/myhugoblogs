@@ -309,3 +309,11 @@ pip3 install flask
 ```
 
 The server is started in a `tmux` session.
+Or one could make it reboot proof:
+
+```
+# Old Ubuntu, systemd is used nowadays
+tail -2 /etc/rc.local 
+/usr/local/bin/run-relay-webserver.py &
+exit 0
+```
