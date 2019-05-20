@@ -12,14 +12,13 @@ you can run this when you can start PowerShell
 as an admin.
 
 ## SSH client
-This first trick even works without administrator rights,
-we use it to update the system.
 
 My system came with version `1709`,
 which we check with `winver` inside of PowerShell.
-If we upgrade to `1809` we have OpenSSH client installed by default,
-so upgrade via de Windows 10 website,
-if the update manager won't work.
+If we upgrade to `1809` we have OpenSSH client installed by default.
+If the update manager will not allow you to upgrade,
+you can
+[upgrade via the website](https://www.microsoft.com/software-download/windows10).
 
 You can now use it by first opening a shell and typing `ssh`.
 

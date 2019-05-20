@@ -11,8 +11,11 @@ class: "post last"
 
 ### Message to recruiters
 
-For any placement I allow a maximum addition of 20% to my rate,
+For any placement I allow a maximum addition of
+15%
+to my rate,
 preventing a chain of intermediates.
-This thus results in a maximum of 16.67% the end customer pays.
-
+This thus results in a maximum of
+13%
+the end customer pays.
 
