@@ -242,17 +242,23 @@ the actual code:
 `/etc/cron.d/heater`
 ```shell
 # turn on during these times
-30 4,15 * * * root echo 1 > /run/relay
+30 5,16 * * * root echo 1 > /run/relay
 
 # turn off during these times
-15 6 * * * root echo 0 > /run/relay
-45 20,23 * * * root echo 0 > /run/relay
+15 7 * * * root echo 0 > /run/relay
+45 21,23 * * * root echo 0 > /run/relay
 
 # dropbox only checked when current state is off
 */3 * * * * root /usr/local/bin/check-dropbox.sh
 
 # set state
 * * * * * root /usr/local/bin/set-relay.py `cat /run/relay`
+```
+
+`/etc/cron.d/reboot`
+```shell
+# this allows the device to reconnect after a possible router reboot
+4 4 * * * root /bin/sleep 60; reboot
 ```
 
 `/usr/local/bin/check-dropbox.sh`

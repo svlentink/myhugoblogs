@@ -33,6 +33,12 @@ we install WSL.
 - `cd  C:\Users\YOUR-USERNAME\Downloads`
 - `Add-AppxPackage .\*.Appx`
 
+
+## Container building
+Docker won't work for now (we'll have to wait for WSL2),
+and don't try (img)[https://github.com/genuinetools/img],
+it [won't](https://github.com/genuinetools/img/issues/34) work either.
+
 ## Warnings
 
 If we cross mount a volume between Windows

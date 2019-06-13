@@ -69,3 +69,14 @@ resulting in all TLS1.3 traffic being handled by the single `server_name`.
 Therefor, if one of the virtual servers contains TLS1.3,
 all need it specified.
 
+
+#### Update
+
+We can read
+[here](https://serverfault.com/questions/704376/disable-tls-1-0-in-nginx)
+that Nginx does not allow for specific TLS versions for different virtual hosts,
+tried this with shared certificate and non overlapping certificates,
+it did not work.
+Maybe HAProxy does first check the SNI before telling what it accepts,
+I'll check that one later.
+
