@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure as code for faster feedback loops"
 date: "2019-06-13"
-draft: true
+draft: false
 tags: ["management"]
 ---
 
