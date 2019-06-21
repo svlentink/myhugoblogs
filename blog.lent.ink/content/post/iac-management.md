@@ -53,10 +53,10 @@ If executed properly,
 it will require less human capital at a slightly higher infrastructure costs,
 which you rent dynamically.
 
-It's liking pressing buttons instead of instructing humans,
+It's like pressing buttons instead of instructing humans,
 you get what you ask for.
 Bad managers won't like this, if they give the wrong instructions
 or don't listen to the advice of the experts,
-everything can go down in an automated fasion,
+everything can go down in an automated fashion,
 no humans to blame.
 
