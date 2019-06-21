@@ -17,10 +17,10 @@ What I need is a good project management tool,
 to enhance productivity and create an overview.
 In my case this needs to be an open source solution,
 since I want to be the owner of my data.
-While search for it,
+While searching for and open sourche project management tool,
 I found that ERP systems usually also provide project management,
 which made me look into them.
-An ERP could provide me with more,
+An ERP could provide me with more;
 one single system (or running multiple instances)
 which include personal and business finances.
 Another benefit is getting familiar with an ERP (useful for my line of work)
@@ -34,7 +34,7 @@ I found
 comparisons
 and their
 [popularity](https://github.com/topics/erp).
-The first and foremost was being lightweight.
+My first and foremost requirement was; it had to be lightweight.
 
 The Java based lost my interest from the start,
 probably all too heavy,
@@ -62,12 +62,13 @@ I've managed to get it up and running with basic auth
 Just did the initial configuration to play with Dolibarr,
 but not yet installed the Kanview plugin.
 Not sure yet how I want to organize my project progress data.
-Maybe keep it in the project (the backlog items)
-and only references on my backlog with links to the items (in Markdown).
+Maybe keep the project meta data (the backlog items, written in markdown)
+inside the project repository
+and only link (URL) to them on my backlog.
 
 An ERP can do a lot,
 from calendar to bookmarks to financial planning.
 All useful features for my personal and business life.
-But I'll first install Nextcloud
-and configure my own mail server (Exim).
-First start using the tools I know I want to use.
+But I'll first install tools that I expect to be using, such as Nextcloud.
+For now, it's on hold.
+

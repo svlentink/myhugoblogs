@@ -16,10 +16,10 @@ we can give them creative assignments.
 
 ## Aim
 
-This post show you how to automate the pressing of a button on a website.
+This post shows how to automate the pressing of a button on a website.
 Why? Tinder just announced they're going live with a web version.
 By showing students a case where they can 'cheat',
-may get them excited for more coding.
+could get them excited for more coding.
 
 ## How to: getting the outer element
 
@@ -27,7 +27,7 @@ For this tutorial, we'll use hotornot.com,
 which is a Tinder alternative that has a similar like feature
 (others options are: Tagged, Badoo, etc.).
 
-+ Make sure you are using Chrome as Browser
++ Make sure you are using Chrome on a laptop
 + Right mouse click on the button you want to start clicking
 + Select 'inspect' on the menu you got of the last action
 

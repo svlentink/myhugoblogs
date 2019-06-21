@@ -83,6 +83,6 @@ the filebrowser code base was a mess.
 
 NOTE: we do not consider Gitlab (self hosted Git) a WebIDE,
 but it can serve as a webportal to edit files.
-OwnCloud and other
+NextCloud and other
 [Web File Managers](https://github.com/Kickball/awesome-selfhosted#web-based-file-managers)
 can provide similar features.

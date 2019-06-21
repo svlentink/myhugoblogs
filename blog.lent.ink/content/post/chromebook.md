@@ -17,11 +17,11 @@ Almost everything that I do,
 can be done in a browser or on a CLI (i.e. on my Linux VPS over SSH).
 Before getting my chromebook,
 I already worked in my
-[cloud based IDE](https://github.com/svlentink/dockerfiles/tree/master/docker-compose/mywebsite)
+[cloud based IDE](https://blog.lent.ink/post/webide/)
 for months,
 which opens in your browser and provides a CLI and IDE.
 
-Normal programs I run inside a docker container,
+Most of the programs I use can be ran inside a docker container,
 even compiling my LaTeX documents.
 
 ## Getting my chromebook
@@ -62,9 +62,9 @@ which has Linux mode.
 
 The following obvious things I do not do:
 
-+ gaming
++ gaming (UPDATE see [Stadia](https://www.theverge.com/2019/6/19/18683382/what-is-cloud-gaming-google-stadia-microsoft-xcloud-faq-explainer))
 + video editing
-+ CAD
++ CAD (UPDATE see [OnShape](https://all3dp.com/1/best-free-online-cad-software/#onshape))
 
 which all will not work on a chromebook.
 
@@ -73,8 +73,9 @@ which all will not work on a chromebook.
 In just two cases,
 
 I used my pinebook (linux) instead of my chromebook;
-+ serial console for [DIY home automation project](https://blog.lent.ink/post/diy-cheatsheet/)
-+ access Dell server via DRAC, which required Open VPN to access management network
+
++ serial console for [DIY home automation project](https://blog.lent.ink/post/diy-cheatsheet/) (UPDATE this [seems possible](https://chrome.google.com/webstore/detail/serial-monitor/ohncdkkhephpakbbecnkclhjkmbjnmlo))
++ access Dell server via DRAC, which required Open VPN to access a management network
 
 These two cases are things a normal user would never encounter.
 The VPN could probably work on a chromebook,

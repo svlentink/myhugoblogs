@@ -150,7 +150,7 @@ parameters:
 ```
 
 When we have clasified the 5 fields for our data set,
-we first check for the post picky field,
+we first check for the most picky field,
 down to the most generic:
 
 - revision
@@ -227,7 +227,7 @@ Printing your private keys as a backup may be the exception.
 
 | type | R | C | S | A | V | example solution |
 | --- | --- | --- | --- | --- | --- | --- |
-| finished education backup | 0 | 1 | 1 | 0 | 1 | 2 usb sticks, one at home, one at parents home |
+| finished education backup | 0 | 1 | 1 | 0 | 1 | 2 usb sticks, one at home, one at parents house |
 | finished course current edu. | 0 | 1 | 1 | 2 | 2 | git repo. which is backed up to docker hub |
 | current project / course | 1 | 2 | 1 | 3 | 3 | git repo. stored in Dropbox folder |
 | long spanning documents; resume, lists | 1 | 2 | 1 | 2 | 2 | Google Docs and montly backup to usb hdd |
@@ -249,7 +249,7 @@ The unlimited photo backup of Google is very handy,
 but again, what if your account gets suspended?
 
 To minimize the damage,
-create an album of your valuable photos/videos
+create an album of your **valuable** photos/videos
 and download/backup this album once a month.
 
 You could make albums by year;

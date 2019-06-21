@@ -34,7 +34,7 @@ Get the required hardware.
 + power supply
 + relay
 + SD card
-+ Laptop with Linux, Windows or Mac (i.e. not a Chromebook or tablet)
++ Laptop
 + etc.
 
 ## Step01: bootable
@@ -156,7 +156,7 @@ we can control it from the web or set a timer,
 but not control the temperature.
 
 We create the timer script,
-which will turns it on during specific times.
+which will turn it on during specific times.
 Outside these time frames,
 we check a shared (with housemates) dropbox file,
 which contains either a '1' or '0'.
