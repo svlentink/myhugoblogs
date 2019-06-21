@@ -24,7 +24,7 @@ You can now use it by first opening a shell and typing `ssh`.
 
 ## Ubuntu/Debian/Kali via WSL
 
-We we know for that our system has the latest version,
+After updating our system has the latest version,
 we install WSL.
 
 - Open Settings, search for Developer and select 'Sideload Apps'
@@ -36,7 +36,7 @@ we install WSL.
 
 ## Container building
 Docker won't work for now (we'll have to wait for WSL2),
-and don't try (img)[https://github.com/genuinetools/img],
+and don't try [img](https://github.com/genuinetools/img),
 it [won't](https://github.com/genuinetools/img/issues/34) work either.
 
 ## Warnings
@@ -54,15 +54,18 @@ This also means that you cannot use your host tools
 (e.g. IDE) and should use CLI tools (e.g. tmux, vim).
 
 For my setup,
-I've set a cron job/systemd timer inside the WSL
+I tried setting up a cron job/systemd timer inside the WSL
 to make a copy to the network drive mounted from the host system,
-to backup my data.
+to backup my data,
+which did not work.
+So here is just a script which can be triggered manually:
 
 ```
-cat << EOF > /etc/cron.d/copy2host
-*/10 * * * * root cp -r /home/* \
-  /mnt/c/Users/YOUR-USERNAME/Documents/
+cat << EOF > /usr/local/bin/backup2host
+#!/bin/sh
+cp -r /home/* /mnt/c/Users/YOUR-USERNAME/Documents/
 EOF
+chmod +x /usr/local/bin/backup2host
 ```
 
 You should tar the data if you want to preserve
