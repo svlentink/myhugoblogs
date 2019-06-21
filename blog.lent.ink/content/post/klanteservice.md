@@ -54,7 +54,7 @@ Thank you for engaging in responsible disclosure and helping us keep T-Mobile cu
 This response brings a smile to my face,
 a company that understands the concept of white hat hackers.
 
-The Dutch CERT team handled it great and sent me some gifts.
+Their Dutch CERT team handled it great and sent me some gifts.
 
 ![tmobilegift](/img/tmobile-thankyou.png "tmobilegift")
 
