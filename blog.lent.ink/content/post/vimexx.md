@@ -9,16 +9,16 @@ My regular domain registrar did not provide .nl domains,
 which made me look for Dutch registrars.
 At one of the cheapest registrars, the price was below 1EU for the first year.
 
-![vimexx form manipulation](/img/vimexx1.jpg "vimexx form manipulation")
+![vimexx form manipulation](/img/vimexx1.png "vimexx form manipulation")
 
 However, what if we could have this price for multiple years?
 Would the form proceed if we changed the value?
 
-![vimexx form manipulation](/img/vimexx2.jpg "vimexx form manipulation")
+![vimexx form manipulation](/img/vimexx2.png "vimexx form manipulation")
 
 Now only the checkout, do they validate?
 
-![vimexx form manipulation](/img/vimexx3.jpg "vimexx form manipulation")
+![vimexx form manipulation](/img/vimexx3.png "vimexx form manipulation")
 
 ### Contact registrar
 
