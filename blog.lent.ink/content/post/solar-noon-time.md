@@ -22,9 +22,10 @@ for example to know when to pray and fast.
 ## Example
 
 Example of the place and day I wrote this post:
+![example noon](/img/google-weather-noon.png "example noon")
 ```
 dawn       = 04:25
-sunrise    = 05:17
+sunrise    = 05:15
 clock noon = 12:00
 solar noon = 13:40
 sunset     = 22:05
@@ -66,9 +67,21 @@ which I'll call DST for now.
 The new time we'll call Solar Noon Time (SNT) for now.
 
 ```
-new Date().getTime()
-https://stackoverflow.com/questions/8047616/get-a-utc-timestamp
+<span id="times-container"></span>
 ```
+
+<script>
+Date.prototype.toSNTString = (lat = 51) => {
+  return "TODO needs to be implemented"
+}
+
+getTimeString = () => {
+  var now = new Date()
+  return "DST = " + now.toString() +
+    "\nUTC = " + now.toUTCString() +
+    "\nSNT = " + now.toSNTString()
+}
+</script>
 
 
 ## Religion
