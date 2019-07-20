@@ -5,7 +5,7 @@ theme = "kiss"
 copyright = "Blog by <a href='https://lent.ink'>lent.ink</a>"
 #googleAnalytics = ""
 # Number of posts per page
-Paginate = 5
+Paginate = 10
 enableRobotsTXT = true
 
 [params.features]

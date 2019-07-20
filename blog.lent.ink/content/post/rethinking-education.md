@@ -2,7 +2,6 @@
 title: "Rethinking education"
 date: "2019-07-20"
 draft: false
-tags: ["education"]
 ---
 
 For this post we focus on higher education / college / university.
@@ -10,9 +9,10 @@ For this post we focus on higher education / college / university.
 ## Historically
 
 Current education comes from a time when:
+
 - knowledge transfer/sharing was expensive (pre-internet era)
 - knowledge changed slower (pace of innovation has increased)
-- people lived there whole life in the same area
+- people lived their whole life in the same area
 
 Let's address these topics!
 
@@ -34,7 +34,7 @@ for one to gain knowledge
 
 ### Pace of innovation
 
-My field of study is IT, the lens through which I look.
+Note; my field of study is IT (the lens through which I see).
 
 Books were always a great source of knowledge.
 However, books need to be updated and the release of a book takes
@@ -42,9 +42,9 @@ However, books need to be updated and the release of a book takes
 which already obsoletes parts of it.
 
 In this fast paced world,
-we desire a medium that let us changes the contents within a day (e.g. blog).
+we desire a medium that lets us changes the contents within a day (e.g. blog).
 
-Nowadays, everyone can create material which people can use to enrich themselves,
+Nowadays, everyone can create materials which people can use to enrich themselves,
 from books and blogs to videos and games.
 Therefore
 **the creation of educational material is not a requirement for a university.**
@@ -77,7 +77,7 @@ The creation of the curriculum we'll leave out of scope here,
 since more factors like marketing come into play.
 For the assessment of the topics in the curriculum,
 we need
-**good proffesors, which should play an important role in the ranking of a university.**
+**good professors, which should play an important role in the ranking of a university.**
 
 ## Proposed model
 
@@ -144,12 +144,12 @@ however, it won't work for people who:
 - want to learn just enough to pass an exam
 
 
-## Opportunities
+### Opportunities
 
-New curriculum creating and examination institution are possible.
+New curriculum creating and examination institutions are possible.
 One could choose to
 give certificates for partial exams
-and that a diploma for a subject requires that all partial exams are done successfully within
+and a diploma for a subject requires that all partial exams are done successfully within
 timeframe X with a maximum of Y retakes.
 
 New entities who would want to compete with the elite colleges,
@@ -164,6 +164,6 @@ since bad exams will be public as well.
 ## Conclusion
 
 Current education feels a bit like having a butcher inspecting the quality of his own meat.
-This makes it unnecessary expensive, time consuming and inflexible.
+This makes it expensive, time consuming and inflexible for its students.
 Employers deserve a better overview of what has been verified by the examining institution.
 
