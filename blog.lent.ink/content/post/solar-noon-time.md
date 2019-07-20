@@ -63,26 +63,50 @@ features that would be added:
 We now have two times we use, UTC internally on our computers
 and the 'normal' time we use,
 which I'll call DST for now.
+To 'compute' the DST, we need the `UTC + timezone`.
 
 The new time we'll call Solar Noon Time (SNT) for now.
+To 'compute' the SNT, we need the `UTC + longitude`.
 
 ```
 <span id="times-container"></span>
 ```
 
 <script>
-Date.prototype.toSNTString = (lat = 51) => {
-  return "TODO needs to be implemented"
+// https://astronomy.stackexchange.com/questions/24859/local-sidereal-time
+// http://lent.ink/uni/uu/cm/midheaven.pdf
+// https://en.wikipedia.org/wiki/Sidereal_time#Comparison_to_solar_time
+Date.prototype.getGMST = () => { // Greenwich mean sidereal time
+  
+}
+
+Date.prototype.toSNTString = function(long = 51) {
+  var YYYY = this.getUTCFullYear()
+  var MM = this.getUTCMonth()
+  var DD = this.getUTCDate()
+  var hh = this.getUTCHours()
+  var mm = this.getUTCMinutes()
+  var ss = this.getUTCSeconds()
+  return YYYY + '-' + MM + '-' + DD +
+    'T' + hh + ':' + ss +
+    '@' + long + ' TODO math not yet implemented'
 }
 
 getTimeString = () => {
   var now = new Date()
   return "DST = " + now.toString() +
-    "\nUTC = " + now.toUTCString() +
+//    "\nUTC = " + now.toUTCString() +
+    "\nUTC = " + toISOString().substr(0,16) +
     "\nSNT = " + now.toSNTString()
 }
 </script>
 
+Just like we have multiple clocks at the airport for different DST timezones,
+we could have another extra clock,
+showing the SNT time for that location.
+This time does not need to replace the other time notations,
+it's
+**just another representation of UTC based on location**.
 
 ## Religion
 
@@ -90,4 +114,20 @@ This timing schedule is possible due to advancements in science,
 making it easy to calculate the time everywhere by a digital watch or phone/computer.
 Religious people would benefit from this timing scheme,
 since their times of fasting/prayer or other customs would align more easily.
+
+## Alternative time and dates
+
+If we were to changes the time
+one could argue to also switch to
+[International Fixed Calendar](https://www.citylab.com/life/2014/12/the-world-almost-had-a-13-month-calendar/383610/),
+but this is not in the scope of this article.
+
+Links:
+
+- [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time)
+- [International Fixed Calendar](https://en.wikipedia.org/wiki/International_Fixed_Calendar)
+- [Solar time](https://en.wikipedia.org/wiki/Solar_time)
+- [Sun transit time](https://en.wikipedia.org/wiki/Sun_transit_time)
+- [Solar noon](https://en.wikipedia.org/wiki/Noon#Solar_noon)
+- [Sidereal vs. solar time](https://en.wikipedia.org/wiki/Sidereal_time#Comparison_to_solar_time)
 
