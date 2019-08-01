@@ -19,7 +19,9 @@ What if we could make this into hours?
 Would these faster feedback loop allow us to be more agile,
 iterate faster and outpace the competitors?
 
-Infrastructure as Code (IaC) allows one to change the IT infrastructure base on configuration files
+Infrastructure as Code
+(IaC, or [phoenix principle](https://kreuzwerker.de/blog/the-phoenix-principle-a-devops-concept-explained))
+allows one to change the IT infrastructure base on configuration files
 or a dashboard.
 This makes it possible to launches new versions of our software faster
 and also test things more quickly.
@@ -40,18 +42,21 @@ just like cattle, if it's sick, you terminated it and get a new one.
 ### What's in it for the tech team?
 
 Working with cattle, not pets,
-being proud of an infrastructure that you truely own,
-you can replicate by initiating a script,
+being **proud of an infrastructure** that you truely own,
+you can **replicate** by initiating a script,
 making you feel more relaxed about it.
 
-It allows for high availability and faster roll back
+It allows for high availability and **faster roll back**
 if shit hits the fan.
 
 ### What's in it for management
 
 If executed properly,
-it will require less human capital at a slightly higher infrastructure costs,
+it will require **less human capital** at a slightly higher infrastructure costs,
 which you rent dynamically.
+
+Change logs are present in the version control history (Git),
+which gives you an **auditable infrastructure**.
 
 It's like pressing buttons instead of instructing humans,
 you get what you ask for.
