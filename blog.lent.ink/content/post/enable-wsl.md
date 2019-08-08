@@ -63,7 +63,19 @@ So here is just a script which can be triggered manually:
 ```
 cat << EOF > /usr/local/bin/backup2host
 #!/bin/sh
-cp -r /home/* /mnt/c/Users/YOUR-USERNAME/Documents/
+
+PATH2HOST=/mnt/c/Users
+
+if [ -z "$1"]; then
+  echo Please specify to which Windows User you want to backup
+  for userpath in `ls -d $PATH2HOST/* 2>/dev/null`; do
+    if `stat $userpath|grep -i access|grep -q 777`; then
+      echo $userpath|sed 's/.*\///g'
+    fi
+  done
+  exit 0
+fi
+tar cfz "$PATH2HOST/$1/wsl-home-backup-`date --iso`.tgz" /home
 EOF
 chmod +x /usr/local/bin/backup2host
 ```

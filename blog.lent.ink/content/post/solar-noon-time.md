@@ -131,3 +131,18 @@ Links:
 - [Solar noon](https://en.wikipedia.org/wiki/Noon#Solar_noon)
 - [Sidereal vs. solar time](https://en.wikipedia.org/wiki/Sidereal_time#Comparison_to_solar_time)
 
+
+## Timezone dimensions
+
+width per timezone
+```
+hour      = 40.000km/24  = 1667km
+longitude = 40.000km/360 =  111km
+```
+
+time difference per timezone
+```
+hour = (24h*60m)/24h = 60min
+long = (24h*60m)/360 =  4min
+```
+

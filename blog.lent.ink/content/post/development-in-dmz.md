@@ -16,7 +16,7 @@ since we cannot get enough people to be security minded.
 
 Development is the creation of something new,
 otherwise you are just building.
-Developer are usually keen on learning
+Developers are usually keen on learning
 [new tools](https://www.stackoverflowbusiness.com/blog/why-developers-want-to-always-be-learning)
 to get the job done.
 
@@ -40,7 +40,7 @@ and create an environment that has no need for this behavior.
 
 ## From DMZ to [enclave](https://en.wikipedia.org/wiki/Network_enclave)
 
-When we let developer code in a demilitarized zone (DMZ; open network),
+When we let developers code in a demilitarized zone (DMZ; open network),
 we need a safe way of transfering the assets (code) to the enclave,
 without introducing a security risk.
 While securing it, let's make it auditable as well.
@@ -78,7 +78,7 @@ which are not added to the code base (archive) but referenced.
 This reference (e.g. installation instruction in Dockerfile)
 needs to be accessible by the container build node.
 
-Everything the developer want into the enclave goes through git.
+Everything the developer wants into the enclave goes through git.
 To enable building a container (thus pulling public resources),
 the code needs to be merged to the master git branch,
 which requires a reviewer/auditor.
