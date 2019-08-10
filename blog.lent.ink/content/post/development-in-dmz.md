@@ -111,5 +111,24 @@ which are logged through Git history.
 *This workflow does not require Infrastructure as Code (IaC),
 but it does required the same mindset.*
 
+## Security
 
+Code will be available in the DMZ,
+allowing developers to increment existing products.
+Company, customer or any production data and passwords/secrets/keys
+[MUST NOT](https://www.ietf.org/rfc/rfc2119.txt)
+be in the DMZ
+but stay internal.
+When following the
+[Kerckhoffs's principle](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle),
+we conclude that an
+[IaC blueprint](https://medium.com/faun/building-repeatable-infrastructure-with-terraform-and-ansible-on-aws-3f082cd398ad)
+can be in the DMZ,
+but not the keys to deploy it.
+
+Note that this does not mean that the code/configuration/files in the DMZ are public,
+but that they are less secure.
+Employees who have access could leak them,
+which is always in any circumstance the case.
+Secrets and data however should not even be able to be leaked by non authorized personnel.
 

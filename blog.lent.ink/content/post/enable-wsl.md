@@ -11,28 +11,19 @@ Even when developer mode and the windows store are disabled,
 you can run this when you can start PowerShell
 as an admin.
 
-## SSH client
-
-My system came with version `1709`,
-which we check with `winver` inside of PowerShell.
-If we upgrade to `1809` we have OpenSSH client installed by default.
-If the update manager will not allow you to upgrade,
-you can
-[upgrade via the website](https://www.microsoft.com/software-download/windows10).
-
-You can now use it by first opening a shell and typing `ssh`.
-
 ## Ubuntu/Debian/Kali via WSL
 
-After updating our system has the latest version,
-we install WSL.
+If we have at least windows 10 `1803` (see below),
+we can install WSL using the following steps:
 
-- Open Settings, search for Developer and select 'Sideload Apps'
 - Download your distro (e.g. Ubuntu) as appx [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 - Open PowerShell as Administrator
-- `cd  C:\Users\YOUR-USERNAME\Downloads`
-- `Add-AppxPackage .\*.Appx`
+  - `cd  C:\Users\YOUR-USERNAME\Downloads`
+  - `Add-AppxPackage .\*.Appx`
+  - `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+    - Y to reboot
 
+You are now ready to use WSL Linux.
 
 ## Container building
 Docker won't work for now (we'll have to wait for WSL2),
@@ -51,7 +42,7 @@ between the WSL and the host.
 Files that once have been stored on that path
 cannot be used anymore (e.g. `git commit`).
 This also means that you cannot use your host tools
-(e.g. IDE) and should use CLI tools (e.g. tmux, vim).
+(e.g. IDE) and should use CLI tools (e.g. `tmux`, `vim`).
 
 For my setup,
 I tried setting up a cron job/systemd timer inside the WSL
@@ -66,7 +57,7 @@ cat << 'EOF' > /usr/local/bin/backup2host
 
 PATH2HOST=/mnt/c/Users
 
-if [ -z "$1"]; then
+if [ -z "$1" ]; then
   echo Please specify to which Windows User you want to backup
   for userpath in `ls -d $PATH2HOST/* 2>/dev/null`; do
     if `stat $userpath 2>/dev/null|grep -i access|grep -q 777`; then
@@ -75,10 +66,21 @@ if [ -z "$1"]; then
   done
   exit 0
 fi
+
 tar cfz "$PATH2HOST/$1/wsl-home-backup-`date --iso`.tgz" /home
 EOF
 chmod +x /usr/local/bin/backup2host
 ```
 
-You should tar the data if you want to preserve
-your file permissions in your backup.
+
+## Updating Windows
+
+My system came with version `1709`,
+which we check with `winver` inside of PowerShell.
+If we upgrade to `1903` we have OpenSSH client installed by default (from `1803`).
+If the update manager will not allow you to upgrade,
+you can
+[upgrade via the website](https://www.microsoft.com/software-download/windows10).
+
+You can now use it by opening a shell and typing `ssh` or `scp`.
+
