@@ -42,22 +42,20 @@ Mijn firmware was `3.7.9.1` en DrayTek bied momenteel
 
 ## stap 01: flash firmware
 
+WARNING in stap 02 zult u lezen dat de moeite uit **stap 01 niet nodig** was.
+
 Zie deze [bron](https://www.draytek.com/support/knowledge-base/5222) voor andere instructies,
 hieronder zijn de commandos Linux (Debian) specifiek.
-
-Kwam erachter dat mijn laptop wat automatische netwerk discovery doet,
-dus heb netwerken in het menu disabled en handmatig aangezet.
-
 
 - Zorg dat 1 computer verbonden is via RJ45 met port 1
 - op de computer:
   - `apt install -y tftp unzip`
   - `cd ~/Downloads`
+  - Download [firmware](https://draytek.nl/downloads/firmware/) ([andere versies](http://www.draytek.com.tw/ftp/Vigor2132/Firmware/))
   - `unzip Vigor2132*.zip`
-- Download [firmware](https://draytek.nl/downloads/firmware/) ([andere versies](http://www.draytek.com.tw/ftp/Vigor2132/Firmware/))
 - zet router uit
 - houd 'factory reset' ingedrukt terwijl u hem weer aanzet
-- het lampje knippert nu hevig en de router is in TFTP modus
+- het lampje knippert nu hevig en de router is in TFTP modus, u moet nu binnen 2min de file overzetten
 - op de computer:
   - `ip addr add 192.168.1.10/255.255.255.0 dev eth0`
   - `ip route add 192.168.1.0/24 via 192.168.1.1 dev eth0`
@@ -186,8 +184,10 @@ Het is dus wel mogelijk..
 maar de exacte details zou ik hier niet mogen plaatsen.
 
 Mocht de lezer van dit stuk het watchwoord ook gevonden hebben,
-laat het me dan weten, ben benieuwd of het een universeel wachtwoord is,
+laat het [mij](https://lent.ink) dan weten,
+ben benieuwd of het een universeel wachtwoord is,
 of wij beiden hetzelfde hebben.
+
 
 ## Weetjes
 
@@ -235,7 +235,7 @@ bv. met een
 [Raspberry Pi 4](https://www.raspberrypi.org/magpi/raspberry-pi-4-specs-benchmarks/),
 dan kunt u ook gaan voor een *sfp USB3.0 dongle*.
 Dit maakt het mogelijk om zelf een *dual stack* in te richten met de
-`[2002:a.b.c.d::/48](https://en.wikipedia.org/wiki/6to4)` range,
+[2002:a.b.c.d::/48](https://en.wikipedia.org/wiki/6to4) range,
 waar `a.b.c.d` het door de ISP uitgegeven DHCP IPv4 is.
 
 Maar als u zelfbouw wilt heeft u weinig opgestoken van deze pagina
