@@ -1,5 +1,5 @@
 ---
-title: "TMobile thuis modem router in bridge mode krijgen DrayTek 2132F"
+title: "TMobile thuis modem router in bridge mode krijgen"
 date: "2019-08-10"
 draft: false
 ---
