@@ -118,7 +118,9 @@ since their times of fasting/prayer or other customs would align more easily.
 ## Alternative time and dates
 
 If we were to changes the time
-one could argue to also switch to
+one could
+[argue](https://youtu.be/rtB93yzgedc)
+to also switch to
 [International Fixed Calendar](https://www.citylab.com/life/2014/12/the-world-almost-had-a-13-month-calendar/383610/),
 but this is not in the scope of this article.
 

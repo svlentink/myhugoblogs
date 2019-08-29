@@ -1,16 +1,16 @@
 ---
-title: "TMobile thuis modem router in bridge mode krijgen"
+title: "TMobile thuis router in bridge mode krijgen"
 date: "2019-08-10"
 draft: false
 ---
 
 Deze pagina geeft een stappen plan om je
 *TMobile thuis DrayTek 2132F modem router*
-te updaten. om admin te worden.
+te updaten; om admin te worden.
 Dit is nodig om vervolgens de 
 router in bridge mode te zetten.
 
-Mijn firmware was `3.7.9.1` en DrayTek bied momenteel
+Huidige firmware is `3.7.9.1` en DrayTek bied momenteel
 `3.8.0.3` aan.
 
 ## Prerequisites

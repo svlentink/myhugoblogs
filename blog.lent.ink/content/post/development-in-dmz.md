@@ -80,12 +80,18 @@ needs to be accessible by the container build node.
 
 Everything the developer wants into the enclave goes through git.
 To enable building a container (thus pulling public resources),
-the code needs to be merged to the master git branch,
+the code needs to be merged to the master (production) git branch,
 which requires a reviewer/auditor.
+This procedure of manual validation is standard practice in code development:
+one creates a
+[Pull Request](https://help.github.com/en/articles/about-pull-requests)
+and another person (or multiple) verifies it.
 
 Side note:
 *when we keep the old containers,
-we don't need our own mirror of packages and images,
+we don't need our own
+[mirror of packages](https://www.aptly.info/doc/why/)
+and images,
 which was a good practice back in the day.*
 
 ## Securing the workflow
@@ -102,7 +108,7 @@ if and only if:
 
 - we keep a history of our container images (which contain the packages)
 - developers need to specify a hash for everything they download without the default package manager
-- the file hashes need to be verify in the build definition of the container (i.e. Dockerfile)
+- the file hashes need to be [verified](https://askubuntu.com/questions/61826/how-do-i-check-the-sha1-hash-of-a-file) in the build definition of the container (i.e. Dockerfile)
 
 This approach enables developers to be free to develop new services using the tools they want,
 being accountable for the decisions they make,

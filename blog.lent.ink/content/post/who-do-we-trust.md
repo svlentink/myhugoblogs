@@ -21,6 +21,7 @@ forced eugenics, pill train station and prison
 - train station
 - elderly home
 - non productive people
+- re-education camps china, offered pill
 history suicide, convicted, no heirs
 
 ## With great power
@@ -89,4 +90,28 @@ drone laser eyes
 [Hide diagnosis: '3 months to live' to an elderly family member for their own mental health](https://www.imdb.com/title/tt8637428/)
 
 
+
+https://youtu.be/WCUq0V-3mgo?t=252
+
+http://www.businessinsider.com/kashmir-india-revoke-article-370-quasi-independence-internet-tourists-2019-8
+
+
+basic income
+- obese
+- smoke
+- drink
+
+less:
+- sleep <6h
+- no college degree
+- exercise less <30min a day
+
+basically, just like a kid,
+if you don't do what 'we' deem good for 'you',
+we won't value as much and we'll sell it in a different way.
+Like: 'We reduce your income to compensate future medical costs.'
+This model could be enabled soon in China.
+
+
+iran gmail interception
 
