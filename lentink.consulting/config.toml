@@ -13,6 +13,6 @@ theme = "hugoscroll"
 #  email = "sv@lent.ink"
   description = "Freelance DevOps / Linux Engineer"
   linkedin = "svlentink"
-  cover = "penguin-container.jpg"
+  cover = "/img/penguin-container.jpg"
 #  logo = "/img/logo-1.jpg"
 
