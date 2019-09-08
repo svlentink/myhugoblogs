@@ -165,5 +165,8 @@ since bad exams will be public as well.
 
 Current education feels a bit like having a butcher inspecting the quality of his own meat.
 This makes it expensive, time consuming and inflexible for its students.
+Let's stop the
+[Baumol effect](https://en.wikipedia.org/wiki/Baumol%27s_cost_disease)
+by increasing productivity.
 Employers deserve a better overview of what has been verified by the examining institution.
 

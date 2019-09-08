@@ -109,6 +109,7 @@ if and only if:
 - we keep a history of our container images (which contain the packages)
 - developers need to specify a hash for everything they download without the default package manager
 - the file hashes need to be [verified](https://askubuntu.com/questions/61826/how-do-i-check-the-sha1-hash-of-a-file) in the build definition of the container (i.e. Dockerfile)
+- [sign](https://git-scm.com/book/ms/v2/Git-Tools-Signing-Your-Work) git commit messages to prevent [forgery](https://mikegerwitz.com/2012/05/a-git-horror-story-repository-integrity-with-signed-commits).
 
 This approach enables developers to be free to develop new services using the tools they want,
 being accountable for the decisions they make,
