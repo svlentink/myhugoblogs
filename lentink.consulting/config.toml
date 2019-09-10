@@ -1,7 +1,7 @@
 baseurl = "https://lentink.consulting/"
 title = "Lentink.consulting"
 author = "Sander Lentink"
-googleAnalytics = ""
+googleAnalytics = "UA-68937386-8"
 defaultContentLanguage = "en"
 language = "en-US"
 theme = "hugoscroll"

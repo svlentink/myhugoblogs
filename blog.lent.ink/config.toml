@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Blog"
 theme = "kiss"
 copyright = "Blog by <a href='https://lent.ink'>lent.ink</a>"
-#googleAnalytics = ""
+googleAnalytics = "UA-68937386-9"
 # Number of posts per page
 Paginate = 10
 enableRobotsTXT = true
