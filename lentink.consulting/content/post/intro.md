@@ -10,6 +10,16 @@ class: "post first"
 #blog-logo { display:none; }
 .inner section { display: none; }
 </style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68937386-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-68937386-8');
+</script>
+
 
 Hello, my name is [Sander](https://lent.ink).
 I'm passionate about technology,
