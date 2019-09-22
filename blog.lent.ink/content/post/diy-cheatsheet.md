@@ -259,6 +259,7 @@ the actual code:
 ```shell
 # this allows the device to reconnect after a possible router reboot
 4 4 * * * root /bin/sleep 60; reboot
+7 * * * * root /sbin/dhclient -v wlan2
 ```
 
 `/usr/local/bin/check-dropbox.sh`

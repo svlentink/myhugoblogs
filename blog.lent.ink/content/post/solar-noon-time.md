@@ -4,6 +4,10 @@ date: "2019-06-25"
 draft: true
 ---
 
+TOREAD: https://en.wikipedia.org/wiki/Equation_of_time
+Was used in the past: https://www.timeanddate.com/time/local-mean-time.html
+
+
 In our current culture, planning and time allow us to efficient as a society.
 To be more efficient, the EU wants to stop the twice a year switching of time,
 called Daylight Saving Time (DST).
@@ -73,14 +77,9 @@ To 'compute' the SNT, we need the `UTC + longitude`.
 ```
 
 <script>
-// https://astronomy.stackexchange.com/questions/24859/local-sidereal-time
-// http://lent.ink/uni/uu/cm/midheaven.pdf
-// https://en.wikipedia.org/wiki/Sidereal_time#Comparison_to_solar_time
-Date.prototype.getGMST = () => { // Greenwich mean sidereal time
-  
-}
 
-Date.prototype.toSNTString = function(long = 51) {
+
+Date.prototype.toSNTString = function(long = 51) { // longitude = meridian
   var YYYY = this.getUTCFullYear()
   var MM = this.getUTCMonth()
   var DD = this.getUTCDate()
@@ -147,4 +146,9 @@ time difference per timezone
 hour = (24h*60m)/24h = 60min
 long = (24h*60m)/360 =  4min
 ```
+
+Depending on the season,
+you might have
+[15 min](https://en.wikipedia.org/wiki/Equation_of_time#The_concept)
+more or less in a day.
 
