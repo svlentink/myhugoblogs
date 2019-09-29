@@ -61,16 +61,50 @@ screen $(ls -tr /dev/tty*|grep -i usb|tail -1) 115200
 
 ## step02 SSH
 
-We will now configure the wifi.
+We will now
+[configure](https://linux.die.net/man/5/wpa_supplicant.conf)
+the wifi.
+Since I want it to be static,
+I defined it via MAC to IP mapping in my router.
+
+```
+apt install -y wpasupplicant
+
+cat << EOF >> /etc/wpa_supplicant/wpa_supplicant.conf
+network={
+  ssid="testing"
+  psk="testingPassword"
+}
+EOF
+```
+
+And the wireless section of
+`/etc/network/interfaces`
+
+```
+auto wlan2
+iface wlan2 inet dhcp
+  wpa-driver wext
+  wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+
+OPTIONAL. Read the
+[Debian manual](https://wiki.debian.org/WiFi/HowToUse)
+when wanting to use the `interfaces` file
+or if `wpa_supplicant` is missing:
+
 The name of the interface can be found using `ip link`,
 mine is called `wlan0`.
 On the sd card, add the following to `/etc/network/interfaces`:
+
 ```
 allow-hotplug wlan0
-auto wlan0
 iface wlan0 inet dhcp
   wpa-ssid "my wifi network name"
   wpa-psk MyPlainTextPassWord
+  address 192.168.1.110/24
+  gateway 192.168.1.1
 ```
 
 ## step03 install 
@@ -259,7 +293,9 @@ the actual code:
 ```shell
 # this allows the device to reconnect after a possible router reboot
 4 4 * * * root /bin/sleep 60; reboot
-7 * * * * root /sbin/dhclient -v wlan2
+# had some issue with the static IP i set on the router
+#7 * * * * root /sbin/dhclient -v wlan2
+#* * * * * root /usr/bin/arping -U -c 1 -I wlan2 192.168.1.110
 ```
 
 `/usr/local/bin/check-dropbox.sh`

@@ -117,3 +117,28 @@ iran gmail interception
 
 transnational citizen
 
+A side product of innovation is a welfarestate
+eugenics the side-effect of continued innovation?
+
+radiation can kill cells
+
+welfare state is problem, leads to social isolation?
+poverty can lead to social incentives
+care for neighbor
+
+find common ground between groups, not differences, that divides (trump vs obama)
+always talk and understand the otherside at all times (before escalation)
+
+When afraid to know too much of the other side (religions)
+they acknowledge that the otherside might be better,
+their point of view actually makes sense.
+But to show an honest view, not colored like ISIS did.
+
+
+prison pill, every day the option,
+no death penalty needed.
+solves the epstein problem.
+
+
+
+
