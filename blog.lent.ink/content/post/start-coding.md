@@ -21,7 +21,7 @@ on OSx, Linux and
 it comes pre-installed.
 
 Using the CLI changes the way you look at your directory structure
-and help you get familiar with GNU tools that can be used to create scripts.
+and helps you get familiar with GNU tools that can be used to create scripts.
 
 Many universities teach students to use a visual editor
 to create scripts and run them via the UI (e.g.
@@ -113,9 +113,9 @@ We will now create our own code.
 Image we have an excel sheet (data in a table),
 but we want to use Git as version control
 or simply want the table to be closer to the code.
-We can dump the excel and put it in Git,
-but this wouldn't be very practical,
-it's better to have it as Markdown inside in Git
+We can save the `.xlsx` in Git,
+but this wouldn't be very practical.
+It's better to have it as Markdown inside in Git
 so one can see the table contents in the Git webui.
 
 Thus we want to convert the excel/sheet data into markdown table format.
