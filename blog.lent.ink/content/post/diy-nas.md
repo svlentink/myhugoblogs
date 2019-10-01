@@ -24,7 +24,7 @@ apt install -y ntfs-3g
 
 now plugin the device in your Raspberry Pi.
 
-Now we play around to find the correct partition and mount it:
+Next we play around to find the correct partition and mount it:
 ```sh
 fdisk -l
 
@@ -58,9 +58,10 @@ but making a mistake could prevent the system from booting...
 We have the disk now connected and visible on the SoC.
 One can now decide to share it as a NAS using a
 web portal (e.g. nextcloud), NFS or Samba.
-We will go for Samba now since chromebooks
+
+We use Samba since chromebooks
 support this Windows protocol by default.
-*Which is kinda strange, since the chromebook runs a Linux kernel, so NFS would be expected...*
+*Which is odd, since chromeos runs on a Linux kernel, so NFS would be expected...*
 
 Install
 [Samba](https://tutorials.ubuntu.com/tutorial/install-and-configure-samba):
