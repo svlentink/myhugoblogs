@@ -1,4 +1,4 @@
-FROM alpine AS build
+FROM alpine:edge AS build
 RUN apk add --no-cache \
   --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
   hugo
