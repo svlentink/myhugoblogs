@@ -4,6 +4,7 @@ author = "Sander Lentink"
 defaultContentLanguage = "en"
 language = "en-US"
 theme = "hugoscroll"
+googleAnalytics = "UA-68937386-8"
 
 [Params]
   github = "svlentink"
@@ -14,4 +15,3 @@ theme = "hugoscroll"
   linkedin = "svlentink"
   cover = "/img/penguin-container.jpg"
 #  logo = "/img/logo-1.jpg"
-

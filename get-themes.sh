@@ -10,6 +10,8 @@ set -e
   && git clone https://github.com/ribice/kiss.git blog.lent.ink/themes/kiss ) \
   || echo theme already downloaded
 
+exit 0
+
 # Initially I had this the yourfolio theme,
 # but it required everything in yaml format
 # and links were not showing etc.
@@ -18,6 +20,8 @@ set -e
 # # https://themes.gohugo.io/hugo-terrassa-theme/
 ( mkdir lentink.consulting/themes \
   && git clone https://github.com/fredrikloch/hugoscroll.git lentink.consulting/themes/hugoscroll ) \
+  && sed -i 's/<\/head/{{\ template\ "_internal\/google_analytics_async\.html"\ \.\ }}<\/head/g' \
+     hugoscroll/layouts/partials/header.html \
   || echo theme already downloaded
 # https://themes.gohugo.io/hugo-lodi-theme/
 # https://themes.gohugo.io/hugo-serif-theme/
