@@ -6,7 +6,7 @@ hugo version
 mkdir -p ./output
 rm -r ./output/* 2>/dev/null || true  #delete previous builds
 
-for i in `ls ./`
+for i in 'blog.lent.ink www.nonni.video' #`ls ./`
 do
   if [ -d "$i" ] && [ "$i" != "output" ]; then
     echo START $i
