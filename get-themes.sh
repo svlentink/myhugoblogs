@@ -10,7 +10,6 @@ set -e
   && git clone https://github.com/ribice/kiss.git blog.lent.ink/themes/kiss ) \
   || echo theme already downloaded
 
-exit 0
 
 # Initially I had this the yourfolio theme,
 # but it required everything in yaml format

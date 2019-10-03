@@ -1,13 +1,9 @@
-FROM alpine:edge AS build
-RUN apk add --no-cache \
-  --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
-  hugo
-RUN apk add --no-cache git tree
+FROM svlentink/hugo-build AS build
 
 ARG HUGOPATH=/data
 COPY . $HUGOPATH
 WORKDIR $HUGOPATH
-RUN ./get-themes.sh
+#RUN ./get-themes.sh # now done in build container
 RUN ./build.sh
 RUN mkdir -p /data/webroot
 RUN cp -r $HUGOPATH/output/* /data/webroot/
