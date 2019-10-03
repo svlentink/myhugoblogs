@@ -1,7 +1,7 @@
 baseURL = "http://www.nonni.video/"
 languageCode = "en-us"
 title = "Nonni video"
-theme = "youtube"
+theme = "hugo-youtube-blog"
 #googleAnalytics = "Your google analytics tracking ID - optional"
 
 [params]

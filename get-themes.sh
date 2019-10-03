@@ -3,7 +3,7 @@ set -e
 
 # get themes blogs
 ( mkdir www.nonni.video/themes \
-  && git clone https://github.com/svlentink/hugo-youtube-blog www.nonni.video/themes/youtube ) \
+  && git clone https://github.com/svlentink/hugo-youtube-blog www.nonni.video/themes/hugo-youtube-blog ) \
   || echo theme already downloaded
 
 ( mkdir blog.lent.ink/themes \
