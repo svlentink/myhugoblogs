@@ -140,5 +140,9 @@ no death penalty needed.
 solves the epstein problem.
 
 
+https://www.voanews.com/a/when-violence-flares-ethiopia-continues-to-turn-off-the-internet/4597812.html
+
+
+
 
 
