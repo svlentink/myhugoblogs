@@ -5,14 +5,17 @@ draft: false
 tags: ["coding"]
 ---
 
-Our [initial introduction](https://blog.lent.ink/post/start-coding/)
-required `bash`,
-which is not an issue if you want to gradually become a programmer.
-This post only requires the Chrome browser
-and access to [teams.microsoft.com](https://teams.microsoft.com).
-
 This guide creates a script that monitors the current open chat
 and responds with a message if a new message has been received.
+
+In our previous
+[introduction to coding](https://blog.lent.ink/post/start-coding/)
+we looked at a structural approach
+to gradually become a programmer.
+But that guide required `bash`,
+which takes some initial setup on Windows (using WSL).
+This post only requires the Chrome browser
+and access to [teams.microsoft.com](https://teams.microsoft.com).
 
 ## Step 00 preparation
 
