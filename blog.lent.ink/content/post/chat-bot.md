@@ -19,6 +19,7 @@ and access to [teams.microsoft.com](https://teams.microsoft.com).
 
 ## Step 00 preparation
 
+- Open [teams.microsoft.com](https://teams.microsoft.com) in Chrome
 - Open a chat to a colleague
 - Hit `ctrl` + `shift` + `j` to open the console
 
