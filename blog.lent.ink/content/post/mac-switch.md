@@ -85,7 +85,7 @@ if [ -z "$1" ]; then
 fi
 
 for i in $@; do
-  update-mac-status.sh "$i"
+  /usr/local/bin/update-mac-status.sh "$i"
 done
 
 for i in $@; do
