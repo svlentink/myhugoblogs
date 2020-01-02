@@ -52,7 +52,7 @@ fi
 
 if arp-scan --destaddr="$1" \
   --localnet \
-  --interface="`iw dev|grep -o wlan[0-9]|head -1`" \
+  --interface="`/sbin/iw dev|grep -o wlan[0-9]|head -1`" \
   | grep -q '1 responded'; then
   if grep -q 0 /run/"$1"; then
     echo 1 > /run/"$1"
