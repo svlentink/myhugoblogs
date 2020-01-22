@@ -8,7 +8,7 @@ weight: 3
   - [full docx](https://cdn.lent.ink/resume/resume-english.docx)
   - [full html](https://cdn.lent.ink/resume/resume-english.html)
 - Dutch
-  - [full docx](https://cdn.lent.ink/resume/resume-dutch.docx)
-  - [full html](https://cdn.lent.ink/resume/resume-dutch.html)
+  - [profielschets docx](https://cdn.lent.ink/resume/resume-dutch.docx)
+  - [profielschets html](https://cdn.lent.ink/resume/resume-dutch.html)
 - [source code](https://github.com/svlentink/resume)
 
