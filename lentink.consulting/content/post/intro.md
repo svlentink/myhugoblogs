@@ -21,5 +21,10 @@ diligent and always looking to get the job done.
 <img src="https://cdn.lent.ink/img/chair.jpg">
 
 
-Love to gain more experience with container orchestration such as kubernetes.
-Like it when my work incorporates data science, security and writing code.
+Love to deepen my experience with container orchestration such as kubernetes
+or do data engineering.
+Like it when my work incorporates
+infrastructure,
+data science,
+security
+and writing code.

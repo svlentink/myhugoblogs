@@ -10,10 +10,12 @@ Paradigms that make me tick are;
 + Diagrams or documentation, begin with the end in mind
 + [Infrastructure as Code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)
 + Security by design
++ Data driven decisioning
+
 
 
 ### Security
-Your company IT security is important to me,
+Your company's IT security is important to me,
 security is not optional.
 
 Ever company has a different history/legacy and attack surface,
@@ -29,6 +31,6 @@ a docker based
 [firewall](https://hub.docker.com/r/svlentink/ipfilter) (not using iptables on host)
 and
 [2FA backup tool](https://github.com/svlentink/dockerfiles/tree/master/svlentink/totp-backup),
-not for the purpose of using it,
+not for the sole purpose of using it,
 but to create awareness and show alternative possibilities
 to existing challenges.
