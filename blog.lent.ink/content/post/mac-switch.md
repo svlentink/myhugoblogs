@@ -118,10 +118,7 @@ The following shows an example `cron.d` file:
 # during the following hours
 # the heater will turn on when someone home
 # and off when not at home
-* 5,9,10,11,12,13,14,15,18,19,20 * * * root cp /run/someone-home /run/relay
-
-# dropbox only checked when current state is off
-*/3 * * * * root /usr/local/bin/check-dropbox.sh
+* 5,8-15,18-20 * * * root cp /run/someone-home /run/relay
 
 # set state
 * * * * * root /usr/local/bin/set-relay.py `cat /run/relay`
