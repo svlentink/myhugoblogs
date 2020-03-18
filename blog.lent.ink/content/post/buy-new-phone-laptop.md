@@ -72,11 +72,14 @@ My current demands for a phone:
   - USB C (convenience)
   - no more than full HD screen, more pixels (4k) is less battery life
   - more than 3000mAh battery
+  - NFC for mobile payments
 
-Currently there are
-[many options](https://tweakers.net/pricewatch/compare/1372180;1430594;1279785;1240109;1237509/)
-of which I would likely buy the *Mi A3 64GB*,
-if I needed a new one at this moment.
+For me there are currently two
+[good options](https://www.gsmarena.com/compare.php3?idPhone1=9769&idPhone2=9739),
+of which I would likely buy the *Motorola one action*,
+which has a better fingerprint reader and has NFC for mobile payments
+(the Xiaomi has better battery life and camera).
+
 
 ## Laptop
 

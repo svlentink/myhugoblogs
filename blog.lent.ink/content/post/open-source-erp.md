@@ -28,7 +28,8 @@ and providing a structure that your heirs could understand.
 
 ## open source ERP
 
-When looking for an open source ERP,
+When looking for an
+[open source ERP](https://github.com/awesome-selfhosted/awesome-selfhosted/blob/master/README.md#enterprise-resource-planning),
 I found
 [some](https://opensource.com/tools/enterprise-resource-planning)
 comparisons
