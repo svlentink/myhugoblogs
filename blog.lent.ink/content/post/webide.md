@@ -86,3 +86,9 @@ but it can serve as a webportal to edit files.
 NextCloud and other
 [Web File Managers](https://github.com/Kickball/awesome-selfhosted#web-based-file-managers)
 can provide similar features.
+
+NOTE: Now in 2020,
+there are
+[more](https://github.com/awesome-selfhosted/awesome-selfhosted/blob/master/README.md#idetools)
+awesome editors such as
+[VS in browser](https://github.com/cdr/code-server).
