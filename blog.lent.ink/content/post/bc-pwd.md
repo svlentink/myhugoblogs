@@ -7,6 +7,7 @@ draft: true
 
 # How do we backup our passwords? A thought on our online Security.
 
+
 Most people know by now that we shouldn't reuse our passwords
 across websites.
 We also know we need two factor authentication (2FA).
@@ -16,6 +17,9 @@ since the phone system (SS7) is broken.
 What we know is that we need to use a password manager
 and login via Google/Microsoft Authenticator,
 you know, that app that has a 6 digit number that changes every few seconds.
+
+This article describes the essential aspects of managing your passwords and authenticator app,
+highlighting the importance of having a backup and showing an alternative way of managing passwords.
 
 ## Why do we do this?
 
