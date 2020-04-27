@@ -8,7 +8,7 @@ tags: ["coding"]
 My technical colleagues never got why I wanted to work on a chromebook,
 they said, why limit yourself when it isn't needed?
 People get it when I'm always in search for the hottest peppers
-or like to have muscle fatigue after exercize,
+or like to have muscle fatigue after exercise,
 but not when working with less specs.
 
 ## Initial setup
@@ -38,7 +38,7 @@ my installed chrome-extensions.
 
 ## My experience so far
 
-The chromebook pushes me into the cloud,
+This chromebook pushed me into the cloud,
 making it save to lose my chromebook,
 since no data is stored on it.
 Some argue that Google watches my every step,
@@ -71,7 +71,6 @@ which all will not work on a chromebook.
 #### When it failed me
 
 In just two cases,
-
 I used my pinebook (linux) instead of my chromebook;
 
 + serial console for [DIY home automation project](https://blog.lent.ink/post/diy-cheatsheet/) (UPDATE this [seems possible](https://chrome.google.com/webstore/detail/serial-monitor/ohncdkkhephpakbbecnkclhjkmbjnmlo))
