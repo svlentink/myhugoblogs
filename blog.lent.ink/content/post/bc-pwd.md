@@ -100,7 +100,9 @@ The user aspect of passwords is known to most users,
 maybe you even use a password manager.
 On the website backend, the passwords are never stored (if done correctly),
 but only the output of the CHF.
-The password + a salt (random value) is put in the CHF and the result + salt is stored.
+The password + a
+[salt](https://youtu.be/8ZtInClXe1Q?t=442)
+(random value) is put in the CHF and the result + salt is stored.
 
 ```
 INPUT      website              hash used to verify password

@@ -180,13 +180,26 @@ Plaintext:      0x07030000
 fail
 ```
 
-Het is dus wel mogelijk..
-maar de exacte details zou ik hier niet mogen plaatsen.
+De tool kan de config niet parsen,
+we kunnen nog wel het MAC address proberen.
 
-Mocht de lezer van dit stuk het watchwoord ook gevonden hebben,
-laat het [mij](https://lent.ink) dan weten,
-ben benieuwd of het een universeel wachtwoord is,
-of wij beiden hetzelfde hebben.
+```
+root@cd7b972ae810:/repo# python draytools.py -vm 00-1D-AA-BB-CC-DD-EE
+Username  :     admin
+Master key:     HIDDEN_ON_BLOG
+```
+
+Hetgeen wat initieel werkte was net iets anders,
+maar alles wat ik toen deed werkt inmiddels niet meer.
+
+## Persoonlijke conclusie
+
+Zelf ben ik de DrayTek opgegeven en ben gegaan voor een Orange Pi als Access Point (L2)
+en laat de DrayTek de NAT doen,
+zie
+[flow schema](https://github.com/tunroam/paper/blob/4494b0ba1aa937c6bf8f7e55d8548426c4d4de3a/intersection_report_spec/302sequence.txt)
+en
+[code](https://github.com/tunroam/networking).
 
 
 ## Weetjes
