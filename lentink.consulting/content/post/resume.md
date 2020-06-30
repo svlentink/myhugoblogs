@@ -4,11 +4,11 @@ weight: 3
 ---
 
 - English
-  - [one page](https://cdn.lent.ink/pdf/cv_lentink.pdf)
-  - [full docx](https://cdn.lent.ink/resume/resume-english.docx)
-  - [full html](https://cdn.lent.ink/resume/resume-english.html)
+  - [full html](https://cdn.lent.ink/resume/resume-english.html) (new printable format)
+  - [full docx](https://cdn.lent.ink/resume/resume-english.docx) (old format)
+  - [one page pdf](https://cdn.lent.ink/pdf/cv_lentink.pdf) (very brief)
 - Dutch
-  - [profielschets docx](https://cdn.lent.ink/resume/resume-dutch.docx)
-  - [profielschets html](https://cdn.lent.ink/resume/resume-dutch.html)
+  - [profielschets html](https://cdn.lent.ink/resume/resume-dutch.html) (new printable format)
+  - [profielschets docx](https://cdn.lent.ink/resume/resume-dutch.docx) (old format)
 - [source code](https://github.com/svlentink/resume)
 
