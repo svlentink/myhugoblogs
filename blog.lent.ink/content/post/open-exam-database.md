@@ -26,4 +26,46 @@ Let's explain this with the following example workflow:
 7. Afterwards, the written exam is scanned/photographed and digitally send to the examinee.
 8. The final result will be published pubically under the hash, of which the examinee can proof that it's the author, but is not required to.
 
+```javascript
+// the following code can be ran in the terminal of a web browser
+const questions_array = [
+  '1 + 1',
+  '1 - 2',
+  '1 + 3',
+  '1 - 4',
+  '1 + 5',
+  '1 - 6',
+  '1 + 7',
+  '1 - 8',
+  '2 + 1',
+  '2 - 2',
+  '2 + 3',
+  '2 - 4',
+  '2 + 5',
+  '2 - 6',
+  '2 + 7',
+  '2 - 8'
+]
+function pickQuestions(hash_string, questions_array, no_of_questions){
+	if (no_of_questions >= questions_array.length) return questions_array
+	let result = []
+	for (let i = 0; i < no_of_questions; i++){
+		let hashno = parseInt(hash_string.substr(10),16) // base16 hash to decimal
+		let magicno = (hashno+i) * (i+1)
+		for (let j = 0; j < questions_array.length; j++) {
+			let qi = (magicno + j) % questions_array.length
+			let question = questions_array[qi]
+			//console.log('Debug info',hashno,magicno,i,j,qi)
+			if (result.includes(question)) continue
+			else {
+				result.push(question)
+				break
+			}
+		}
+	}
+	return result
+}
+//testing
+pickQuestions('abcdef0123456789', questions_array, 15)
+```
 
