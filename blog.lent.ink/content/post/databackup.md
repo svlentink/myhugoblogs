@@ -1,5 +1,5 @@
 ---
-title: "data backup strategy"
+title: "The SCARV data backup strategy"
 date: "2019-01-10"
 draft: false
 tags: ["security"]
@@ -34,7 +34,7 @@ try to stick to the
 which allows you to sort on date.
 
 
-#### attributes
+#### SCARV attributes
 When thinking of the attributes we can give to our data,
 we find 5 important indicators,
 of which the first, version control (revision),
@@ -250,10 +250,13 @@ but again, what if your account gets suspended?
 
 To minimize the damage,
 create an album of your **valuable** photos/videos
-and download/backup this album once a month.
+and download/backup this album once a month/quarter.
 
-You could make albums by year;
-'before2015', '2015', '2016', '2017', '2018'.
+You could make albums
+(of backup worthy pictures)
+by year for recent years;
+'before2015', '2015', '2016', '2017', '2018'
+and life phases for older pictures; 'kid', 'highschool', 'college', 'uni', 'earlyparenthood'.
 Which eases the backup procedure.
 
 #### Stateful docker
