@@ -259,6 +259,7 @@ by year for recent years;
 and life phases for older pictures; 'kid', 'highschool', 'college', 'uni', 'earlyparenthood'.
 Which eases the backup procedure.
 
+
 #### Stateful docker
 If you keep state in your docker container,
 you are doing it wrong, please mount volumes.

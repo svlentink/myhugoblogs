@@ -75,6 +75,8 @@ cat << EOF >> /etc/samba/smb.conf
     path = /media/usbhdd
     read only = no
     browsable = yes
+#    force user = root
+#    force group = root
 EOF
 
 service smbd restart

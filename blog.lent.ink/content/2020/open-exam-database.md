@@ -69,3 +69,12 @@ function pickQuestions(hash_string, questions_array, no_of_questions){
 pickQuestions('abcdef0123456789', questions_array, 15)
 ```
 
+
+so the exam is generated just before it begins and printed,
+directly afterwards, images are taken of written exam and hash of it is added to public ledger,
+proving it happened in that moment in time.
+E.g. also video material of person making exam is available.
+
+hash(exam hash + fullname.toLower())
+
+
