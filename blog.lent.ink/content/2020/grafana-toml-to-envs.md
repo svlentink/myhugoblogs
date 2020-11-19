@@ -1,7 +1,7 @@
 ---
 title: "Grafana Toml to environment variables"
 date: "2020-11-19"
-draft: true
+draft: false
 tags: ["coding"]
 ---
 
