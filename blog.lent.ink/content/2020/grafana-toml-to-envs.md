@@ -20,7 +20,7 @@ fi
 
 TF=/tmp/temp-grafana-conf.toml
 echo "[default]" > $TF
-cat $1 >> $TF
+cat $1|sed 's #.*$  ' >> $TF
 > $2
 
 while read l; do
@@ -37,7 +37,7 @@ while read l; do
 		NAME=`echo $NAME|tr a-z\.\- A-Z__`
 		VAL=`echo $l|sed 's/^.*\ =\ //'`
 		echo "export $NAME=$VAL" >> $2
-		echo "\"$NAME\": \"$VAL\","
+		echo "\"$NAME\": \"$VAL\","|sed 's "" " g'
 		continue
 	fi
 done < $TF
