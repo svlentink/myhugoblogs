@@ -1,7 +1,14 @@
+# Parcel box
 
-
-
-
+This article describes how to create your own parcel box.
+It was motivated by the fact that I found a package in my bicycle crate in front of my house
+when coming home after being away for a few weeks.
+I still wonder how many there have been there originally but might have been stolen.
+In line with my work, I tried to come up with a technical solution that prevents changing the human (delivery guy).
+When searching for a solution,
+I found that it was already out there,
+but too expensive (400eu for a model that I liked),
+since I expected to move within a year.
 
 
 ## Motivation design
