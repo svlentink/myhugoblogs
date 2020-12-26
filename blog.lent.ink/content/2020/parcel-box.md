@@ -124,7 +124,10 @@ The initial remaining slap will now be used for the top and the door,
 which has a width of 59? (or 61?), the '?' is depending on how much was lost due to sawing.
 For the door, we will have a 5mm smaller width than the backplate, to allow for the opening and the hinge.
 Thus the door will be 59?x455x18 (or 61?x465x18).
-Which leaves 1220-455-2=763 (or 1250-465-2=783) (where "-2" accounts for the saw loss),
+
+This leaves 1220-455-2=763 (or 1250-465-2=783) (where "-2" accounts for the saw loss)
+for the roof.
+
 
 #### Fixed part
 The fixed part will be 200mm from the top of the front side
