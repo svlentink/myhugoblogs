@@ -119,16 +119,6 @@ The two times 30 stands for
 the 30mm gap to open the hatch
 and the 30mm ground clearance.
 
-#### Door
-The initial remaining slap will now be used for the top and the door,
-which has a width of 59? (or 61?), the '?' is depending on how much was lost due to sawing.
-For the door, we will have a 5mm smaller width than the backplate, to allow for the opening and the hinge.
-Thus the door will be 59?x455x18 (or 61?x465x18).
-
-This leaves 1220-455-2=763 (or 1250-465-2=783) (where "-2" accounts for the saw loss)
-for the roof.
-
-
 #### Fixed part
 The fixed part will be 200mm from the top of the front side
 (resulting in the packages being able to have a max height of 200-18mm=approx. 18cm).
@@ -160,6 +150,18 @@ we will leave between the backplate and the bottom to allow air circulation and 
 From the last slap of initially 460x1220x18 (or 470x1250x18),
 we removed the fixed part and bottom, resulting in:
 1220-370-414-2-2=432 (or 1250-380-424-2-2=442)
+
+#### Door
+The initial remaining slap
+(thus not one of the 4 identical ones)
+will now be used for the top and the door,
+which has a width of 59? (or 61?), the '?' is depending on how much was lost due to sawing.
+For the door, we will have a 5mm smaller width than the backplate, to allow for the opening and the hinge.
+Thus the door will be 59?x455x18 (or 61?x465x18).
+
+This leaves 1220-455-2=763 (or 1250-465-2=783) (where "-2" accounts for the saw loss)
+for the roof.
+
 
 ## Assembly
 
