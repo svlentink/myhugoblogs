@@ -16,7 +16,7 @@ since I expected to move within a year.
 
 There are various designs,
 like a model with
-[two halve cilinders that turing inside each other](https://www.youtube.com/watch?v=fFvoW80r_tg)
+[two halve cilinders that turing inside each other](https://www.youtube.com/watch?v=fFvoW80r_tg),
 allowing for only one way flow of goods
 (as see in
 [underground garbage deposit units](https://www.amsterdam.nl/afval-en-hergebruik/ondergrondse-afvalcontainers/)).
@@ -34,7 +34,7 @@ an opening hatch on the front side
 (as seen in the
 [Allux 800](https://www.youtube.com/watch?v=DUFgL0sbuOM&)).
 Of these two simple designs, the one with the top rotating needs more material and has more moving mass (thus can break more easily),
-thus we opt for the design with the front hatch.
+therefore we opt for the design with the front hatch.
 
 
 ## Material
@@ -46,8 +46,8 @@ hinges for the door and hatch,
 we'll need wood.
 
 You have 3 options:
-- `$` Indoor [2440x1220x18mm OSB](https://www.gamma.nl/assortiment/osb3-18-mm-244x122-cm-rechte-kanten/p/B112332) (do not get the [one with weird edges](https://www.praxis.nl/bouwmaterialen/hout/osb/plaat-osb-tong-en-groef-2-zijdig-18mm-244x122cm/5639971))
-- `$` indoor [2440x1220x18mm underlayment](https://www.praxis.nl/bouwmaterialen/hout/multiplex/multiplex-underlayment-t-g-122x244cm-18mm/5306959) which will require you to remove the edges
+- `$` (indoor) [2440x1220x18mm OSB](https://www.gamma.nl/assortiment/osb3-18-mm-244x122-cm-rechte-kanten/p/B112332) (do not get the [one with weird edges](https://www.praxis.nl/bouwmaterialen/hout/osb/plaat-osb-tong-en-groef-2-zijdig-18mm-244x122cm/5639971))
+- `$` (indoor) [2440x1220x18mm underlayment](https://www.praxis.nl/bouwmaterialen/hout/multiplex/multiplex-underlayment-t-g-122x244cm-18mm/5306959) which will require you to remove the edges
 - `$$` Outdoor and painted using 2440x1220x18mm plywood for outdoors (multiplex)
 - `$$$` Concrete plywood ([betonplex](https://www.dehoutgroothandel.nl/betonplex)) with smooth surfaces which requires no painting [2500x1250x18mm](https://www.plaatprofi.nl/betonplex-18mm-radiata-pine-250)
 
@@ -72,7 +72,7 @@ We will first get 4 equal sizes from the original:
 resulting in 4 slaps of 460x1220x18 (or 470x1250x18) with a remainding slap of 59?x1220x18 (or 61?x1250x18).
 
 ### Creating sides
-2 of these slaps will be the sides thus we remove a triangle, making one side of the top 50mm lower:
+2 of these slaps will be the sides; we remove a triangle, making one side of the top 50mm lower:
 ```
        ___
  |\     ^
@@ -82,14 +82,13 @@ resulting in 4 slaps of 460x1220x18 (or 470x1250x18) with a remainding slap of 5
  |<>|
   50
 ```
-resulting the sides being done sawing.
 
 ### Back
 Grab another of the initially 4 identical slaps and remove 30mm,
 resulting in 460x1190x18 (or 470x1220x18).
 The backplate is now done.
 This results in the backplate not reaching the ground,
-thus that the final box will stand on the sides as its legs.
+since the box will stand on the sides as its legs.
 
 ### Front
 Due to the removal of the triangles from the sides, the front is 50mm lower than the back.
@@ -116,7 +115,9 @@ On the top of this hinging slap of wood, we left 30mm free to the top for someon
 
 The front height will be 1220-50=1170 (or 1250-50=1200),
 of which the `front_covered_height` will be 1170-30-30=1110 (or 1200-30-30=1140).
-The two times 30 stands for the gap top open the hatch on the top and the 30mm ground clearance of the door.
+The two times 30 stands for
+the 30mm gap to open the hatch
+and the 30mm ground clearance.
 
 #### Door
 The initial remaining slap will now be used for the top and the door,
