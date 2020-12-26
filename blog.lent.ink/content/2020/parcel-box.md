@@ -123,9 +123,9 @@ and the 30mm ground clearance.
 The fixed part will be 200mm from the top of the front side
 (resulting in the packages being able to have a max height of 200-18mm=approx. 18cm).
 Thus to determine the fixed part height, we take the `front_covered_height`
-minus the swinging hinge part visible (150mm)
+minus the swinging hinge part visible (170mm)
 minus the door height:
-1110-150-590=370 (or 1140-150-610=380)
+1110-170-590=350 (or 1140-170-610=360)
 
 We remove this part of the last of the untouched of the first 4 initial slaps we created.
 
