@@ -4,6 +4,7 @@ This article describes how to create your own parcel box.
 It was motivated by the fact that I found a package in my bicycle crate in front of my house
 when coming home after being away for a few weeks.
 I still wonder how many there have been there originally but might have been stolen.
+
 In line with my work, I tried to come up with a technical solution that prevents changing the human (delivery guy).
 When searching for a solution,
 I found that it was already out there,
@@ -14,18 +15,19 @@ since I expected to move within a year.
 ## Motivation design
 
 There are various designs,
-like the
-[two halve cilinders turing inside each other](https://www.youtube.com/watch?v=fFvoW80r_tg)
-allow for only one way flow of goods,
-as see in
-[underground garbage deposit units](https://www.amsterdam.nl/afval-en-hergebruik/ondergrondse-afvalcontainers/).
-We want to use a simple design,
-which I found two versions of,
+like a model with
+[two halve cilinders that turing inside each other](https://www.youtube.com/watch?v=fFvoW80r_tg)
+allowing for only one way flow of goods
+(as see in
+[underground garbage deposit units](https://www.amsterdam.nl/afval-en-hergebruik/ondergrondse-afvalcontainers/)).
+My requirement was a simple design
+that only requires mechanical components and not electronics.
+During my search I found two versions;
 one with the top opening (as seen in the
 [logixbox multibox](https://www.logixbox.nl/producten/pakketbrievenbussen/grote-brievenbus-multibox-m.html)
 or
 [smart parcel box](https://www.smartparcelbox.co.uk/smart-parcel-delivery-box-medium-green.html))
-or
+and
 [one](https://www.youtube.com/watch?v=VTmUXU7n9d4)
 [with](https://www.youtube.com/watch?v=8N44kmBnPiY)
 an opening hatch on the front side
