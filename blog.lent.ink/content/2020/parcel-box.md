@@ -130,7 +130,7 @@ minus the door height:
 We remove this part of the last of the untouched of the first 4 initial slaps we created.
 
 #### Bottom
-The bottom will be also created from the slap we used for the fixed part.
+The bottom will also be created from the slap we used for the fixed part.
 
 Since front and back are fixed in between the sides:
 ```
@@ -149,7 +149,8 @@ we will leave between the backplate and the bottom to allow air circulation and 
 #### Hatch
 From the last slap of initially 460x1220x18 (or 470x1250x18),
 we removed the fixed part and bottom, resulting in:
-1220-370-414-2-2=432 (or 1250-380-424-2-2=442)
+1220-370-414-2-2=432 (or 1250-380-424-2-2=442),
+what now remains is the hatch.
 
 #### Door
 The initial remaining slap
@@ -165,8 +166,7 @@ for the roof.
 
 ## Assembly
 
-We assume the reader knows how to attach the parts to each other,
-which screws/glue to use.
+We assume the reader knows how to use screws and glue.
 
 ### Hatch to fixed
 The hatch will be attached to the top of the fixed part on the inside.
@@ -207,10 +207,10 @@ outside| |inside box
 ```
 
 Note that the hatch needs to move freely,
-thus you might need to sand a bit along the width to have it running smoothly.
+therefore you might need to sand a bit along the width to have it running smoothly.
 
 ### Backplate
-Attach the backplate in between the sides and attach it,
+Place the backplate in between the sides,
 matching the top and having 30mm ground clearance.
 
 ### Fixed part
@@ -220,14 +220,19 @@ with 200mm from the slanted top
 (which will make the hatch reaching 170mm higher and providing a 30mm gap for operating it).
 
 ### Bottom
-The bottom can now be inserted in between the sides,
-which 30mm ground clearance and 10mm clearance from the backplate.
-This will make the door close rest against the bottom.
+The bottom can now be installed in between the sides,
+with 30mm ground clearance and 10mm clearance from the backplate.
+This will make the closed door rest against the bottom.
 
 ### Door
-Add the door with the lock eyes on one side and the hinge on the other.
+Add the door with lock eyes on one side and the hinge on the other.
 
 ### Roof
-Last but not least, add the roof.
+Install the roof,
+with the back aligning with the backplate
+(so it can be placed against a wall),
+leaving it hanging over the front side
+(preventing rain from coming into the operating gap).
+
 
 
