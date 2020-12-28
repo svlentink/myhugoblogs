@@ -1,4 +1,9 @@
-# Parcel box
+---
+title: "Parcel box"
+date: "2020-12-26"
+draft: false
+tags: ["DIY"]
+---
 
 This article describes how to create your own parcel box.
 It was motivated by the fact that I found a package in my bicycle crate in front of my house
@@ -224,6 +229,8 @@ The bottom can now be installed in between the sides,
 with 30mm ground clearance and 10mm clearance from the backplate.
 This will make the closed door rest against the bottom.
 
+The 30mm removed from the backplate could be placed under the bottom as a reinforcement.
+
 ### Door
 Add the door with lock eyes on one side and the hinge on the other.
 
@@ -234,5 +241,9 @@ with the back aligning with the backplate
 leaving it hanging over the front side
 (preventing rain from coming into the operating gap).
 
+## Closing words
+There are no pictures here since I haven't build this project yet.
+If someone builds the parcel box earlier than me,
+feel free to share photos if you'd like them on this page.
 
 
