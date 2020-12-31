@@ -1,5 +1,5 @@
 ---
-title: "Parcel box"
+title: "DIY Parcel box"
 date: "2020-12-26"
 draft: false
 tags: ["DIY"]
