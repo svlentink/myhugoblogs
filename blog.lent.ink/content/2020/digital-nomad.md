@@ -1,4 +1,60 @@
+---
+title: ""Combining career development and digital nomadism"
+date: "2021-01-04"
+draft: true
+tags: ["travel"]
+---
 
+The 2020 lockdown has unlocked the possibility for numerous people
+to become a digital nomad.
+Usually the biggest hurdle is finding a location independent job.
+
+In this post I'll share my toe dipping into this new lifestyle.
+
+## Career development
+We all know the typical nomads,
+some example I encountered;
+- the person living for free *room and board* at an hostel
+- the guy with the surf dude look, working at local (beach) bars to pay for his wanderlust
+- the person working and stay at an organic farm to find oneself again
+
+While the approach works for those people,
+my **priority is different**.
+For me,
+my career development and enjoying challenging jobs/assignments
+is what I desire,
+that I'm able to travel along that is a nice bonus.
+
+Before starting this journey,
+I already payed attention to
+[my schedule](#FIXME),
+doing things that enhance my work productivity;
+like physical exercise for mental releave
+and
+alternative diet for increased focus (intermittent fasting and low carb).
+
+## Living standards
+For some, the *van life* works.
+Personally, I need stable WiFi,
+a good night's rest
+and
+not worrying about
+finding a shower or washing machine.
+
+Many people recommend co-working spaces or working from a bar,
+which is not an option anymore with lockdown measures,
+and wouldn't fit my hours of meeting calls/pair-programming a day.
+(pair-programming is done via screen sharing and audio calling)
+
+Thus the shared room/hostel isn't the place for me,
+since my work productivity can only be guaranteed with
+a private room or apartment.
+
+#### Renting arrangements
+Since I usually work for fixed hours to match my colleagues at home,
+I can't switch places during workdays,
+since you usually need to check out before 11 and check in after 2 or 3.
+Therefore, I only switch places in the weekend.
 
 Renting a place per week or per month?
 
@@ -31,12 +87,24 @@ I prefer a weekly home rotate.
 
 
 Other tips:
-- if you plan on using the washing machine, let it run once before on the warmest to clean the machine (optionally with a dishwasher tablet in it)
+- if you plan on using the washing machine, let it run once before on the warmest to clean the machine (with dishwasher detergent in it)
 - only wash half of your cloths each time, you are using an unknown washing machine
 - skip cotton, pick more sportswear/synthetic clothing; dry much quicker, less weight, no wrinkles, resists stains, better durability, mold/mildew resistant.
 - keep a list of what you change, if you also work in the room you forget that your desk lamp was actually the bed light and the missing cushion you used to fix the sagging mattress.
 - remember that the large backpacks are for camping, you don't need stuff like cooking gear/towel/sleeping bag etc.
 - one USB C laptop charger can charge both laptops and your phone, the USB of your laptop can then charge your other gear
+
+## Mode of transportation
+In these lockdown times, research your options
+since they might change each week.
+Usually road travel is less restricted than
+public transit/planes.
+
+#### Travel cost
+For me, my first destination was a 2500km ride from my house,
+which costed me 150eu for a round trip (airplane) from Amsterdam
+and I met a fellow Dutch, who paid 30eu for a round trip from Eindhoven.
+Driving would have costed me over 500eu on fuel for a round trip.
 
 Public transit/planes vs. car/motorcycle
 
@@ -69,4 +137,12 @@ blood oxygen saturation meter
 motorcycle mountains/nature, public transit city trip
 
 [winter blues](https://en.wikipedia.org/wiki/Seasonal_affective_disorder)
+
+## Afterthoughs
+
+Most of my colleagues enjoy an occasional story of my wanderlust adventures,
+however, don't overdo it and waste your privilege by making people envious.
+Also have an internet backup through a MiFi or hotspot of your phone.
+If your internet gets broken at home, people accept that,
+but not if you are on your *workation*!
 
