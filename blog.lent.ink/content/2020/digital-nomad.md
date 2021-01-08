@@ -10,6 +10,9 @@ to become a digital nomad.
 Usually the biggest hurdle is finding a location independent job.
 
 In this post I'll share my toe dipping into this new lifestyle.
+It's written for people who,
+just like me,
+are able to work from home now.
 
 ## Career development
 We all know the typical nomads,
@@ -86,6 +89,13 @@ but when I have my own transportation (car/motorycle),
 I prefer a weekly home rotate.
 
 
+## Prerequisites
+We assume you've ticked the following boxes;
+- know what [data is valuable](https://blog.lent.ink/post/databackup/) on your devices and do regular backups of it (to the cloud)
+- know what data is visible (e.g. DNS and SNI) to entities having access to the same (WiFi) network and secure what needs to be secured
+or that you have a company laptop that has managed this for you ;)
+
+
 Other tips:
 - if you plan on using the washing machine, let it run once before on the warmest to clean the machine (with dishwasher detergent in it)
 - only wash half of your cloths each time, you are using an unknown washing machine
@@ -138,6 +148,8 @@ motorcycle mountains/nature, public transit city trip
 
 [winter blues](https://en.wikipedia.org/wiki/Seasonal_affective_disorder)
 
+
+
 ## Afterthoughs
 
 Most of my colleagues enjoy an occasional story of my wanderlust adventures,
@@ -145,4 +157,16 @@ however, don't overdo it and waste your privilege by making people envious.
 Also have an internet backup through a MiFi or hotspot of your phone.
 If your internet gets broken at home, people accept that,
 but not if you are on your *workation*!
+
+At the start I mentioned people working for *room and board*,
+just like everyone I also *pay in kind* for things
+(when eating at family I usually fix some computer or electricity).
+
+https://www.youtube.com/channel/UCCxq1foN1x_xVhzQX46TnbQ
+https://www.youtube.com/c/RosieGabrielle
+
+be a travel vlogger/lifestyle blogger (entertainment industry,content creator), not a travel photographer, since you are not competing with local jobs, thus no work permit
+
+https://www.anyplace.com
+https://mokahto.com/adv-bikes-with-shaft-drive/
 
