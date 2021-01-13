@@ -139,6 +139,7 @@ and assess if your current trajectory is still the right one
 (avoid loss aversion).
 
 An example of the first week's planning could be:
+
 - mo. (1h) Exploratory looking at vacancies and professionals on Linkedin
 - tu. (1h) Plan how to get an overview of vacancies, professionals and what skills/education etc.
 - we. (1h) Create initial overview vacancies
@@ -198,6 +199,7 @@ and the fact that you payed for it (loss aversion).
 For this solo path you need to be an autodidact,
 but having an external motivator can help.
 Examples are;
+
 - an accountability partner
 - signing up to take an exam/certification on a topic
 - scheduling a rehearsal job interview with a friend
