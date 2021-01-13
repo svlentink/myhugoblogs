@@ -1,7 +1,7 @@
 ---
-title: "An analytical approach for a career switch"
+title: "Analytical approach to career switching"
 date: "2021-01-13"
-draft: true
+draft: false
 ---
 
 
@@ -22,10 +22,12 @@ When working with this degree as an infra engineer (managing servers and writing
 I felt the need for some more background about systems,
 which motivated me to complete a MSc. security and network engineering.
 While doing this study, I learned that security isn't my thing
-(I prefer creating stuff instead of verifying/breaking other's code),
-but had a new found interest in data science.
-But before completing the enrollment to the master data science,
+(I prefer creating stuff instead of verifying/breaking other's code).
+During that time I developed a new interest in data science,
+but before completing the enrollment to the master data science,
 I learned that I can start doing data engineering and learn on the job instead of doing another degree.
+Now that I'm working as a data engineer with data scientists,
+I'm not so sure I want to grow to that position.
 
 Coming back to the topic of this post,
 let's discuss a generic approach on preparing oneself
@@ -43,13 +45,15 @@ This is different from learning as a hobby.
 When you learn as a hobby it needs to be fun and engaging,
 like the Feynman lectures for physics
 and Khan Academy for mathematics.
-However, fun learning is usually not as effective as pushing yourself.
+However, fun learning solutions are usually too broad for what we need.
 
 
 ## Exempted professions
 Many jobs of today's jobs require a lot of time behind a screen,
 from accounting to software development to visual/graphical/interior/urban design and architecture.
-These skills can be learned at home and personal projects can be added to your digital portfolio.
+These skills can be learned at home
+and demonstrated through
+personal projects bundled in a digital portfolio.
 
 Some work requires special experience, like a surgeon,
 which cannot be obtained without an education.
@@ -75,10 +79,14 @@ market              ###
 new job!               ######
 ```
 We start with an exploratory phase.
-We explore first explore the two sides of supply (professionals doing the work)
+We first explore both sides; supply (professionals doing the work)
 and demand (vacancies).
-Get an overview of which vacancies are out there and what skills/expertise/certificates/exams it requires.
-On the other side, look at people (on Linkedin) doing the work that you want to do
+Get an overview of which
+[vacancies](https://www.thebalancecareers.com/top-best-job-websites-2064080)
+are out there and what skills/expertise/certificates/exams it requires.
+On the other side,
+[look at people](https://linkedin.com/search/results/people)
+doing the work that you want to do
 and look at their resume (education and previous experience) and their online portfolios.
 For both supply and demand, write down (use spreadsheet) the common denominator in skills/education offered and required.
 
@@ -88,17 +96,17 @@ you should get familiar with all the topics in that education.
 You can do this by looking up the syllabus from multiple universities
 and read wikipedia articles on the subjects discussed in the courses.
 You do not have to know everything in depth,
-but you do need to some jargon and be able to follow a conversation on the topic.
+but you do need to know some jargon and be able to follow a conversation on the topic.
 Sidenote, I initially wanted to do the BSc. Artificial Intelligence
-and learned that the same study had different topics at different Universities.
+and learned that the same study had different topics at different universities.
 University of Utrecht was more cognitive oriented while University of Amsterdam was more technical.
 
 When it comes down to dissecting the tree of topics that are part of an education,
-note that lots of topics are not relevant for the job.
+observe that lots of topics are not relevant for the job.
 For example, I learned the history of software development life cycle (SDLC)
 but only use the latest (agile/scrum/kanban).
-The same goes for the history of the internet and cryptography (however making a joke about kamasutra cipher is fun).
-Sometimes a course looks relevant (like the prolog programming language) but is only used in academia.
+The same goes for the history of the internet and cryptography (besides being able to joke about *kamasutra cipher*).
+Sometimes a course looks relevant (like the Prolog programming language) but is only used in academia.
 (I do see the value of developing one's thinking, but the specific skill is not needed for the job)
 Be aware of the prerequisites of courses,
 I once signed up for infinitesimal calculus B without first doing A,
@@ -126,33 +134,32 @@ progress in multiple dimensions
 and not betting on a single horse.
 Another point to keep in mind is to zoom out
 every day,
-get an helicopter overview of your progress
+get a helicopter overview of your progress
 and assess if your current trajectory is still the right one
 (avoid loss aversion).
 
 An example of the first week's planning could be:
-- mo. 1h Exploratory looking at vacancies and professionals on Linkedin
-- tu. 1h Plan how to get an overview of vacancies, professionals and what skills/education etc.
-- we. 1h Create initial overview vacancies
-- th. 1h Create initial overview professionals
-- fr. 1h Plan how to do the initial learning/reading on topics (create a mindmap?)
-- weekend 5h Reading introduction on wikipedia of all topic I need to learn
+- mo. (1h) Exploratory looking at vacancies and professionals on Linkedin
+- tu. (1h) Plan how to get an overview of vacancies, professionals and what skills/education etc.
+- we. (1h) Create initial overview vacancies
+- th. (1h) Create initial overview professionals
+- fr. (1h) Plan how to do the initial learning/reading on topics (create a mindmap?)
+- weekend (5h) Reading introduction on wikipedia of all topics to learn
 
-For learning topics, we recommend touching every topic first lightly
+For learning topics, we recommend touching every topic first lightly (read introduction)
 and iteratively go deeper on each topic.
 This helps cement the knowledge in your brain
 since you'll revisit the topic multiple times with an increasing level of depth
-(breadth first search, which is opposed to depth first search).
+(this is called breadth first search, which is opposed to depth first search).
 
 ## Marketing
-
 Your online presence needs to be in line with the type of employee the company expects.
-For most professions you don't want to have party photos online showing you intoxicated.
+Most professions don't want to have party photos online showing they're intoxicated.
 Personally I like it when a search for my name in Google shows my hobby projects (portfolio)
 and some sports competitions I participated in.
 
 #### Resume
-Your CV needs to be in line what is expected in your field.
+Your CV needs to be in line with what is expected in your field.
 The resume of a designer will look very different than someone in academia.
 Study resumes of successful people in your field
 and create a similar one.
@@ -189,16 +196,15 @@ An education motivates you by setting deadlines
 and the fact that you payed for it (loss aversion).
 
 For this solo path you need to be an autodidact,
-but having an external motivator like
-an accountability partner
-or
-signing up to take an exam on a topic
-or
-scheduling a rehearsal job interview with a friend.
+but having an external motivator can help.
+Examples are;
+- an accountability partner
+- signing up to take an exam/certification on a topic
+- scheduling a rehearsal job interview with a friend
 
 One of my long term goals is to learn Spanish,
 but I only find myself learning it just before an upcoming trip
-or when have Spanish speaking people around me.
+or when having Spanish speaking people around me.
 Be aware of your own lack of motivation and act upon it.
 
 ## Freelance vs. employment
@@ -207,7 +213,7 @@ Being a freelancer and using
 platforms like
 Upwork, Peopleperhour, Fiverr and Behance
 can provide you with more freedom than employment.
-However, being commited to one employer/assignment
+However, being committed to one employer/assignment
 for 40h per week for an extented period,
 will usually be better for your resume
 and easier to start with.
