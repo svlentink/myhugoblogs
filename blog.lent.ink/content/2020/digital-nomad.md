@@ -1,5 +1,5 @@
 ---
-title: ""Combining career development and digital nomadism"
+title: "Combining career development and digital nomadism"
 date: "2021-01-04"
 draft: true
 tags: ["travel"]
