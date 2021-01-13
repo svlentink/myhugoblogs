@@ -5,13 +5,6 @@ draft: true
 ---
 
 
-build mental framework
-just like kindergarten starts with counting, we don't start with linear algebra
-this is how the mind works, give it time, go broad first, not into depth!
-
-multiple learning tracks in parallel, not betting on one horse, plan
-
-
 
 The conventional road to a vocation is through an education.
 In this post I try to show an alternative way of pivoting to a different career without going back to school/university.
@@ -71,8 +64,6 @@ when raising money with venture capitalists, etc.
 When you picked a vocation that can be (mostly)
 learned on a laptop, we can start our learning journey.
 
-
-
 For our journey we denote 4 points of focus;
 exploration, learning, portfolio creation and marketing.
 A rough timeline could look a bit as follows:
@@ -123,6 +114,35 @@ to make your projects into a success.
 For me the exploration and putting (hobby) projects into my portfolio
 never fully stops.
 
+#### Planning
+We start with planning to plan.
+For example you might plan to study 1 hour on workdays
+and 5 hours in the weekend, giving 10h per week.
+
+It's important to work on various topics at the same time,
+not on the same day but in the same week.
+This helps us avoid tunnel vision,
+progress in multiple dimensions
+and not betting on a single horse.
+Another point to keep in mind is to zoom out
+every day,
+get an helicopter overview of your progress
+and assess if your current trajectory is still the right one
+(avoid loss aversion).
+
+An example of the first week's planning could be:
+- mo. 1h Exploratory looking at vacancies and professionals on Linkedin
+- tu. 1h Plan how to get an overview of vacancies, professionals and what skills/education etc.
+- we. 1h Create initial overview vacancies
+- th. 1h Create initial overview professionals
+- fr. 1h Plan how to do the initial learning/reading on topics (create a mindmap?)
+- weekend 5h Reading introduction on wikipedia of all topic I need to learn
+
+For learning topics, we recommend touching every topic first lightly
+and iteratively go deeper on each topic.
+This helps cement the knowledge in your brain
+since you'll revisit the topic multiple times with an increasing level of depth
+(breadth first search, which is opposed to depth first search).
 
 ## Marketing
 
