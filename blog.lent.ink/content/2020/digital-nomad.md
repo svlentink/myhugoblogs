@@ -164,9 +164,28 @@ just like everyone I also *pay in kind* for things
 
 https://www.youtube.com/channel/UCCxq1foN1x_xVhzQX46TnbQ
 https://www.youtube.com/c/RosieGabrielle
+https://www.youtube.com/watch?v=Y510En3oYYw
 
 be a travel vlogger/lifestyle blogger (entertainment industry,content creator), not a travel photographer, since you are not competing with local jobs, thus no work permit
 
 https://www.anyplace.com
 https://mokahto.com/adv-bikes-with-shaft-drive/
+
+Ofcourse it would be awesome to
+[drive from Alaska to Argentina on a motorcycle](https://www.youtube.com/watch?v=Ud18v-5vrSw)
+or some
+[other adventure](https://www.youtube.com/watch?v=fmmXvoKGNGk),
+but that would require me to monitize my videos better,
+instead of doing the work I'm currently doing.
+
+I generally prefer to run my workloads on the cloud/servers
+instead of on my local laptop and connect no external monitors,
+making me generally have no laptop issue when colleagues do have them.
+At one company colleagues who asked for a powerful laptop
+got a
+Thinkpad P73 (3.4KG)
+instead of the normal
+T590 (1.75KG),
+which is a significant difference for a digital nomad!
+
 
