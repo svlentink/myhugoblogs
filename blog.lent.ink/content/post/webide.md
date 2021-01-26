@@ -30,13 +30,15 @@ My search continued.
 I needed a simple IDE to allow people (non-tech)
 to edit Markdown files and upload pictures for a static blog/website generator.
 
+UPDATE 2021: at work I use [VS code in browser](https://github.com/svlentink/dockerfiles/tree/master/docker-compose/code-server).
+
 ## Lightweight WebIDE
 
 Options I found were:
 
 | Editor | Backend | Stars | Last commit | Comments |
 | --- | --- | --- | --- | --- |
-| [Codiad](https://github.com/Codiad/Codiad) | PHP | 2504 | Oct 31, 2018 | unmaintained |
+| [Codiad](https://github.com/Codiad/Codiad) | PHP | 2504 | Oct 31, 2018 | unmaintained, reborn as [Atheos](https://github.com/Atheos/Atheos) |
 | [ICEcoder](https://github.com/icecoder/ICEcoder) | PHP | 1038 | Dec 14, 2018 |
 | [Eclipse orion.client](https://github.com/eclipse/orion.client) | Node.js | 175 | Feb 7, 2019 |
 
