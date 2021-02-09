@@ -165,6 +165,7 @@ just like everyone I also *pay in kind* for things
 https://www.youtube.com/channel/UCCxq1foN1x_xVhzQX46TnbQ
 https://www.youtube.com/c/RosieGabrielle
 https://www.youtube.com/watch?v=Y510En3oYYw
+[woman motorcyclist tourer](https://www.youtube.com/watch?v=IgO2-XHXBMU)
 
 be a travel vlogger/lifestyle blogger (entertainment industry,content creator), not a travel photographer, since you are not competing with local jobs, thus no work permit
 
@@ -188,4 +189,15 @@ instead of the normal
 T590 (1.75KG),
 which is a significant difference for a digital nomad!
 
+
+Most governments still require you to have a physical address,
+which is usually easiest find with a friend or family member.
+But be aware that a
+[welfare state](https://en.wikipedia.org/wiki/Welfare_state)
+like the Netherlands may punish the resident.
+E.g. if it is social housing,
+the housing company gets an overview of all the annual incomes of all people at an address
+and raises the rent when they collectively earn X amount (but it won't go down if you leave the address).
+The government may decide to stop their welfare/staps/benefit.
+Therefore only arrange an address of someone who is economically contributing to society.
 
