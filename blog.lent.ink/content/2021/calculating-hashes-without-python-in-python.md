@@ -8,17 +8,18 @@ tags: ["programming"]
 
 The
 [law of the instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)
-tell us that we might not use the best tool for the job.
-In this post we show a simple example where using Python is not the right approach.
+tells us that we might not use the best tool for the job.
+In this post we show an example where Python is not the tool for the job.
 
 We created a simple script which adds the hash of a file in the filename,
 enable you to detect
 [data degration](https://en.wikipedia.org/wiki/Data_degradation)
 for cold storage.
+Note that I only use Unix systems (Linux, Android and Chromebook).
 
-When creating this script using only Python,
-you would likely first read the file and then calculate a hash,
-as seen in the commented part of the following snippet:
+When creating the following script using Python,
+you would likely first read the file into memory and then calculate a hash,
+as seen in the commented part of the following script:
 
 
 ```python
@@ -67,10 +68,11 @@ for root, dirs, files in os.walk(ROOT):
 
 ```
 
-However, using
-[GNU's md5sum](https://man7.org/linux/man-pages/man1/md5sum.1.html)
-does not require you to load it all in memory,
-which is more efficient and thus not require you to check for the current memory available.
+However, below the commented lines, we see the code for
+[GNU's md5sum](https://man7.org/linux/man-pages/man1/md5sum.1.html),
+which does not load it into memory.
+The GNU utility is more efficient
+and does not require you to check for the current memory available.
 
 
 
