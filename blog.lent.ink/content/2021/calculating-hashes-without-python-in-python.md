@@ -30,6 +30,7 @@ import sys
 import hashlib
 import re
 
+REMOVE_HASH = False
 arglen = len(sys.argv)
 if arglen >= 2:
 	if arglen == 3 and argv[1].lower() == "-d":
@@ -46,7 +47,7 @@ def calc_hash_in_python(fpath):
 	free = int(mem_line.split()[3])
 	if size > int(free * 0.8):
 		print("WARNING skipping",fpath,"due to memory size",size,free)
-		continue
+		return False
 	
 	with open(fpath,'rb') as fpointer:
 		content = fpointer.read()
@@ -69,11 +70,11 @@ for root, dirs, files in os.walk(ROOT):
 		# like archive.hashabcd1234.tar.gz
 		fnlist = fn.split('.')
 
-		fpath_contains_hash = ( len(fnlist) > 2 and len(fnlist[1]) == 32 and re.match("^[0-9a-f]+$", fnlist[1]) )
+		fpath_contains_hash = ( len(fnlist) > 1 and len(fnlist[1]) == 32 and re.match("^[0-9a-f]+$", fnlist[1]) )
 
 		if REMOVE_HASH:
 			if fpath_contains_hash:
-				original_path = os.path.join(root, fnlist[0] + "." + ".".join(fnlist[2:]) )
+				original_path = os.path.join(root, ".".join([fnlist[0]] + fnlist[2:]) )
 				os.rename(fpath, original_path)
 			continue
 
@@ -83,11 +84,11 @@ for root, dirs, files in os.walk(ROOT):
 			if fnlist[1] != h:
 				print("ERROR", fpath, "has an incorrect hash")
 		else:
-			hashfpath = os.path.join(root, fnlist[0] + "." + h + "." + ".".join(fnlist[1:]) )
+			hashfpath = os.path.join(root, ".".join([fnlist[0], h] + fnlist[1:]) )
 			os.rename(fpath,hashfpath)
 
 		if h in hashes:
-			hashes[h] = hashes[h].add(fpath)
+			hashes[h].add(fpath)
 		else:
 			hashes[h] = { fpath } # new set
 
