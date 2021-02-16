@@ -33,7 +33,7 @@ import re
 REMOVE_HASH = False
 arglen = len(sys.argv)
 if arglen >= 2:
-	if arglen == 3 and argv[1].lower() == "-d":
+	if arglen == 3 and sys.argv[1].lower() == "-d":
 		REMOVE_HASH = True
 	ROOT=sys.argv[arglen - 1]
 else:
