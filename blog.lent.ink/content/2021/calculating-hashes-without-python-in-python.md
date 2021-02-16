@@ -56,7 +56,9 @@ def calc_hash_in_python(fpath):
 
 
 def calc_hash_using_GNU(fpath):
-	return os.popen('md5sum ' + fpath).readlines()[0].split(' ')[0]
+	if ('"' in fpath)
+		raise Exception("ERROR filepath contains quotes",fpath)
+	return os.popen(f"md5sum \"{fpath}\"").readlines()[0].split(' ')[0]
 
 
 hashes = {}
