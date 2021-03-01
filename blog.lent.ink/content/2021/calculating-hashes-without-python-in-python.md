@@ -56,38 +56,71 @@ def calc_hash_in_python(fpath):
 
 
 def calc_hash_using_GNU(fpath):
-	if ('"' in fpath)
+	if '"' in fpath or "`" in fpath:
 		raise Exception("ERROR filepath contains quotes",fpath)
 	return os.popen(f"md5sum \"{fpath}\"").readlines()[0].split(' ')[0]
 
 
+def get_hash_filename(root, fn, h=None):
+	hash_name = None
+	hash_from_fn = None
+
+	# We split on a dot (.)
+	# since files can be like archive.tar.gz
+	# we place the hash after the first dot
+	# like archive.hashabcd1234.tar.gz
+	fnlist = fn.split('.')
+
+	contains_hash = ( len(fnlist) > 1 and len(fnlist[1]) == 32 and re.match("^[0-9a-f]+$", fnlist[1]) )
+
+	if contains_hash:
+		hash_from_fn = fnlist[1]
+		if h and hash_from_fn != h:
+			raise Exception("Hash in filename and function arg do not match",hash_from_fn,h,root,fn)
+		h = hash_from_fn
+		hash_name = fn
+		original_name = ".".join([fnlist[0]] + fnlist[2:])
+	else:
+		if h:
+			hash_name = ".".join([fnlist[0], h] + fnlist[1:])
+		original_name = fn
+
+	result = {
+		"original_fname": original_name,
+		"original_fpath": os.path.join(root, original_name),
+	}
+	if h:
+		result.update({
+			"hash": h,
+			"hash_fname": hash_name,
+			"hash_fpath": os.path.join(root, hash_name),
+		})
+	return result
+		
+
 hashes = {}
 for root, dirs, files in os.walk(ROOT):
 	for fn in files:
-
 		fpath = os.path.join(root,fn)
-		# We split on a dot (.)
-		# since files can be like archive.tar.gz
-		# we place the hash after the first dot
-		# like archive.hashabcd1234.tar.gz
-		fnlist = fn.split('.')
+		if os.path.islink(fpath) or not os.path.isfile(fpath):
+			continue
 
-		fpath_contains_hash = ( len(fnlist) > 1 and len(fnlist[1]) == 32 and re.match("^[0-9a-f]+$", fnlist[1]) )
+		nameobj = get_hash_filename(root, fn)
 
 		if REMOVE_HASH:
-			if fpath_contains_hash:
-				original_path = os.path.join(root, ".".join([fnlist[0]] + fnlist[2:]) )
-				os.rename(fpath, original_path)
+			if "hash" in nameobj:
+				os.rename( nameobj['hash_fpath'], nameobj['original_fpath'] )
 			continue
 
 		h = calc_hash_using_GNU(fpath)
 		
-		if fpath_contains_hash:
-			if fnlist[1] != h:
+		if "hash" in nameobj:
+			if nameobj["hash"] != h:
 				print("ERROR", fpath, "has an incorrect hash")
 		else:
-			hashfpath = os.path.join(root, ".".join([fnlist[0], h] + fnlist[1:]) )
-			os.rename(fpath,hashfpath)
+			# Thus fpath == nameobj["original_fpath"]
+			nameobj = get_hash_filename(root, fn, h)
+			os.rename( nameobj["original_fpath"], nameobj["hash_fpath"] )
 
 		if h in hashes:
 			hashes[h].add(fpath)
