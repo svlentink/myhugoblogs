@@ -1,15 +1,11 @@
+---
+title: "Guitar straplocks"
+date: "2008-01-01"
+draft: true
+tags: ["music"]
+---
 
-
-		<section id='tips'>
-			<header>
-				<h3>
-					Guitar tips
-				</h3>
-			</header>
-			<article>
-				<h4>
-					Straplocks
-				</h4>
+### Straplocks
 				<div>
 					<div>
 						<img src='//cdn.lent.ink/img/chords/roundHead.jpg' height='200px'/>

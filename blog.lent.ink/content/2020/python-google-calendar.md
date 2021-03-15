@@ -1,4 +1,9 @@
-
+---
+title: "Python Google calendar"
+date: "2021-01-01"
+draft: true
+tags: ["category01"]
+---
 
 ```python
 #!/usr/bin/env python3
