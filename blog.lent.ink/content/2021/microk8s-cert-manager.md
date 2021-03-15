@@ -21,7 +21,7 @@ I0315 15:33:07.280902       6 store.go:363] ignoring add for ingress REDACTED ba
 I0315 15:39:55.955968       6 store.go:338] ignoring delete for ingress REDACTED based on annotation kubernetes.io/ingress.class
 ```
 
-The flag is mentioned on the ingress page of kubernetes and is
+This annotation is mentioned on the ingress page of kubernetes and is
 [mentioned as a deprecated](https://kubernetes.io/docs/concepts/services-networking/ingress/#deprecated-annotation)
 option.
 However, it is still actively used in cert-manager.
