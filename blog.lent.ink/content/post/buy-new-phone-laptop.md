@@ -63,22 +63,16 @@ but the lack of (security) updates.
 My current demands for a phone:
 
 - MUST HAVE
-  - [Android One](https://android.com/one) (clean Android with security updates)
+  - [Android One](https://android.com/one) (clean Android with security updates), or a Google Pixel
   - min. 4GB RAM
   - min. 64GB storage
-  - fingerprint reader
-  - not too big, should fit in my hand and pocket
-- WOULD HAVE
+  - back mounted fingerprint reader
+  - not too big, should fit in my hand and pocket (max width 73mm)
+  - NFC for mobile payments
+- SOULD HAVE
   - USB C (convenience)
   - no more than full HD screen, more pixels (4k) is less battery life
   - more than 3000mAh battery
-  - NFC for mobile payments
-
-For me there are currently two
-[good options](https://www.gsmarena.com/compare.php3?idPhone1=9769&idPhone2=9739),
-of which I would likely buy the *Motorola one action*,
-which has a better fingerprint reader and has NFC for mobile payments
-(the Xiaomi has better battery life and camera).
 
 
 ## Laptop
@@ -98,6 +92,14 @@ My requirements for a Chromebook:
 - matte or touch screen, no glossy screen without touch!
   - matte screen for outdoor usage
   - touch screens scratch less/harder finish
-- 13 or 14 inch, full HD, good quality (IPS)
+- 13 or 14 inch, full HD, IPS
   - No 4k; limits battery life
+
+
+## My (current) devices
+
+- 2018 Acer chromebook 14 CB3-431 (219eu)
+- 2020: Motorola one action (170eu)
+- 2021: (returned) HP chromebook 14a (229eu); has a [design flaw](https://support.google.com/chromebook/thread/85957053?hl=en), which I encountered on the na0053nd and na0153nd (`CTRL+ALT+T`, `ping google.com`)
+- 2021: Lenovo chromebook s345 (255eu)
 
