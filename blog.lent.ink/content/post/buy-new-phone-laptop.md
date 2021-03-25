@@ -98,8 +98,11 @@ My requirements for a Chromebook:
 
 ## My (current) devices
 
+With all laptops having IPS and 4GB ram.
+
 - 2018 Acer chromebook 14 CB3-431 (219eu)
 - 2020: Motorola one action (170eu)
 - 2021: (returned) HP chromebook 14a (229eu); has a [design flaw](https://support.google.com/chromebook/thread/85957053?hl=en), which I encountered on the na0053nd and na0153nd (`CTRL+ALT+T`, `ping google.com`)
-- 2021: Lenovo chromebook s345 (255eu)
+- 2021: Lenovo chromebook s345 touchscreen (255eu)
+- 2021: Acer chromebook C314 ([204eu](https://www.amazon.nl/Acer-Chromebook-Laptop-Full-HD-Celeron/dp/B08439VSXC?))
 
