@@ -11,6 +11,8 @@ Note that this only applies to goods that you need for your business,
 like a phone, laptop etc.
 Or you can be create; a friend of mine wanted a camera drone and bought it on his business.
 He makes one video per year for a customer besides using it for all his vacations.
+Or someone using his vacation home
+for ocassional painting workshops/retreats, making it a business cost.
 
 
 ## Calculation

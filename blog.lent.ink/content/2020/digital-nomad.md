@@ -7,7 +7,8 @@ tags: ["travel"]
 
 The 2020 lockdown has unlocked the possibility for numerous people
 to become a digital nomad.
-Usually the biggest hurdle is finding a location independent job.
+Usually the biggest hurdle is finding a
+[location independent job](https://www.youtube.com/watch?v=hHhYtZV_T9M).
 
 In this post I'll share my toe dipping into this new lifestyle.
 It's written for people who,
@@ -200,4 +201,9 @@ the housing company gets an overview of all the annual incomes of all people at 
 and raises the rent when they collectively earn X amount (but it won't go down if you leave the address).
 The government may decide to stop their welfare/staps/benefit.
 Therefore only arrange an address of someone who is economically contributing to society.
+
+[Putting your work out there](https://www.youtube.com/watch?v=vyVpRiqOvt4)
+or
+[writing it down](https://www.youtube.com/watch?v=x0vUsxhMczI)
+is a good practice.
 
