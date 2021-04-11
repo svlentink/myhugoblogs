@@ -64,6 +64,13 @@ Another case is when titles matter;
 in academia, as a consultant, in medicine,
 when raising money with venture capitalists, etc.
 
+But wait!
+For some professions requiring a title,
+there is a twin profession without a title.
+A therapist without a degree is a (insert speciality here) coach
+and an architect without a degree is a (structural) designer
+and an unlicensed accountant is a bookkeeper.
+
 ## Learning the trade
 When you picked a vocation that can be (mostly)
 learned on a laptop, we can start our learning journey.
@@ -221,3 +228,9 @@ will usually be better for your resume
 and easier to start with.
 
 
+## Internship
+
+For motivation and actual hands-on experience,
+an internship /
+[working for free](https://www.inc.com/amy-morin/4-reasons-you-should-work-for-free-and-why-you-should-refuse-the-rest-of-the-tim.html)
+could be a good way to get your career going.
