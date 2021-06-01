@@ -207,3 +207,43 @@ or
 [writing it down](https://www.youtube.com/watch?v=x0vUsxhMczI)
 is a good practice.
 
+
+https://www.rekenkeizer.nl/werken/bruto-netto-loon-salaris-meerdere
+
+
+When checkout is around 10 and you plan to work during the day,
+finding a place with a shared lobby/living room
+that you can use saves booking double nights when traveling that day.
+
+
+renting places is outsourcing managing home interior
+and eliminating the need for cleaning (if you switch places weekly)
+
+In portugal 95 is E5 and 98 E10, which is different from most other countries
+(my older motorcycle needs the lowest percentage ethanol E5, 5%).
+
+As a student, I would plan my holidays around meetups,
+like having a workshop at a Google office or
+learning interesting stuff about containers at a workshop at Snyk.
+Now that I have a business,
+these travels can be business expensive,
+but it changed during Covid.
+
+When countries were opening up again and air travel was still hard,
+I figured I could also drive to a meeting where I would normally fly to.
+However, this requires me to drive the whole weekend (for example to Madrid)
+and stay there the whole week.
+During this week I need an office space to do my consulting job.
+Finding a private office space in a foreign city for just a week
+and the need to stay there for a week, since driving will be in the weekend,
+lead me to an airbnb with a desk to work on.
+
+This lifestyle of staying in Airbnbs and traveling feel a bit like a digital nomad.
+With the perk of being able to write off his temporary office space (airbnb)
+and travel (driving) as business expensive,
+as long as I sincerely go to interesting meetups/events/workshop to network and learn.
+
+5857.8km
+
+https://zakelijkgeld.nl/kennisbank/representatiekosten/
+https://www.getgekko.com/blog/eten-en-drinken-aftrekken/
