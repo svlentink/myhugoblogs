@@ -86,6 +86,7 @@ like TFTP to a router or RS232 to a switch.
 
 My requirements for a Chromebook:
 
+- fanless (no humming sound)
 - min. 4GB ram
 - min. 32GB storage
 - 64bit processor: that enables the build in Linux mode
@@ -93,7 +94,8 @@ My requirements for a Chromebook:
   - matte screen for outdoor usage
   - touch screens scratch less/harder finish
 - 13 or 14 inch, full HD, IPS
-  - No 4k; limits battery life
+  - No 4k; shortens battery life
+- dark screen bezel and keyboard area (my Elitebook had a silver like finish, forcing me into dark areas)
 
 
 ## My (current) devices
