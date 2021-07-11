@@ -15,10 +15,10 @@ developers?
 
 ## Technical outline
 
-Debit accounts hold the potential to spend currency.
-Developers can use a cloud subscription tied to that account.
-The cloud subscription is managed by the platform (call it Prepaid cloud services provider PCSP).
-If the PCSP detects that the funds on the account dip below x, it kills off all resources except storage marked as stateful.
+- Debit accounts hold the potential to spend currency.
+- Developers can use a cloud subscription tied to that account.
+- The cloud subscription is managed by the platform (call it Prepaid cloud services provider PCSP).
+- If the PCSP detects that the funds on the account dip below x, it kills off all resources except storage marked as stateful.
 
 The PCSP takes x amount (e.g. `0.5%`) of all debited currency as service fees
 (thus also applies to returned currency).
