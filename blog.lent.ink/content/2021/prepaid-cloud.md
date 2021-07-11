@@ -15,7 +15,7 @@ developers?
 
 ## Technical outline
 
-- Debit accounts hold the potential to spend currency.
+- Prepaid debit account holds the topped up currency.
 - Developers can use a cloud subscription tied to that account.
 - The cloud subscription is managed by the platform (call it Prepaid cloud services provider PCSP).
 - If the PCSP detects that the funds on the account dip below x, it kills off all resources except storage marked as stateful.
@@ -48,15 +48,15 @@ This PCSP has in it statements that all currency it deems excess will be refunde
 to close its fiscal year.
 If MaliciousCorp (customer) now uses this PCSP for $10.000 a month and only spends $10 per month and has a fiscal year from 1jan - 31dec,
 and does not state it wants to have its excess funds returned at the end of December,
-it uses PCSP as a way to surpress its profits, while receiving it all in January again.
+it uses PCSP as a way to suppress its profits, while receiving it all in January again.
 
 ## Implementation
 
 The services of PCSP can be automated through payment automation and cloud services automation.
 
-The PCSP should have a common fiscal year
+The PCSP and intended customer should have a common fiscal year
 (e.g. India and UK differ from EU),
 since starting a PCSP with a fiscal year on 1feb
-that caters to the EU market may be perceived as a tax avoiding scheme.
+that caters to the EU market may be perceived as a tax avoiding or worse, evading scheme.
 
 
