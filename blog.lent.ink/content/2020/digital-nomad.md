@@ -247,3 +247,26 @@ as long as I sincerely go to interesting meetups/events/workshop to network and 
 
 https://zakelijkgeld.nl/kennisbank/representatiekosten/
 https://www.getgekko.com/blog/eten-en-drinken-aftrekken/
+
+When renting a private office space (thus no shared office space) in a foreign country for a week,
+the only feasible way of arranging this is via Airbnb or a similar provider.
+
+And if you were to work
+[6 days per week](https://www.myjewishlearning.com/article/six-days-shall-you-work/)
+and want to have office space for it,
+you will need to rent the night before (otherwise you can only start after 2pm)
+and rent an extra night (otherwise you need to checkout before 10am).
+Therefore, you will need to rent the room for 7 nights if you want to work for 6 days in it.
+
+Before being a freelancer (as a student),
+I would fly to TLV to join a workshop at the Google office
+and enjoy the beach afterwards.
+Or drive to a meetup/eventbrite of HackerX (networking event)
+or a technical workshop.
+Fuel and airplane tickets be paid by company.
+Travel for 3 reasons:
+- business meetings (arrangement buying and selling smarthome, import motorcycle from Spain)
+- workshop/courses
+- networking events
+
+
