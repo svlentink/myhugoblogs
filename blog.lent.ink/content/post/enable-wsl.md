@@ -84,3 +84,18 @@ you can
 
 You can now use it by opening a shell and typing `ssh` or `scp`.
 
+<!--
+
+## Windows store locked
+
+If the MS store is locked by your organization,
+we need to
+[manually](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
+install a distro.
+
+- Open [this link](https://aka.ms/wslubuntu2004) to download the package
+- Open powershell and execute the following commands:
+  - `cd C:\Users\$env:UserName\Downloads`
+  - `Add-AppxPackage .\Ubuntu_2004*.appx`
+
+-->

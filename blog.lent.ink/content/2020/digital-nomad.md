@@ -248,7 +248,7 @@ as long as I sincerely go to interesting meetups/events/workshop to network and 
 https://zakelijkgeld.nl/kennisbank/representatiekosten/
 https://www.getgekko.com/blog/eten-en-drinken-aftrekken/
 
-When renting a private office space (thus no shared office space) in a foreign country for a week,
+When renting a private office space (thus no shared office space) in a foreign country (language barrier) for a week,
 the only feasible way of arranging this is via Airbnb or a similar provider.
 
 And if you were to work
@@ -268,5 +268,103 @@ Travel for 3 reasons:
 - business meetings (arrangement buying and selling smarthome, import motorcycle from Spain)
 - workshop/courses
 - networking events
+
+
+How to stay working from home
+
+After brainstorming with colleagues who were also hired during the lockdown,
+who weren't planning on going to the office when things were opening up,
+I decided to put my findings on paper.
+
+Basically we'll look on how to become the best remote employee a manager could think off,
+that results you being so effective in working by yourself while keeping connected,
+that being in the office together only leads to fun interactions, but not to more productive ones.
+
+
+## Effective communication
+
+When the world eased out of lockdown it became clear that managers wanted to go back to the office
+and that most people executing the tasks did not want to.
+Initially I thought it was due to us developers making something tangible;
+at the end of the day the code works, the ticket is done,
+while manager manage people, thus harder to grasp.
+
+But what if we as professionals facilitate managers in managing us in digital ways?
+We already found that Scrum/Kanban boards with items
+(for which the developer create subtickets to reflect current task at hand)
+works quite well.
+Now we should also facilitate managers in having an easy time managing the task executing individuals.
+
+The less we commute the more sustainable a company becomes,
+this is especially relevant for companies that want to become carbon neutral.
+
+
+new in company, write down all links, create own getting started/onboarding guide
+
+Educate others in 
+
+
+Digital whiteboard: Mural vs Miro
+sprint retrospective
+https://easyretro.io
+Better than stickies, no hand writing issues, if everyone is tech-savvy,
+thus everyone will figure it out in my field, otherwise they risk the are seen as non tech-savvy.
+And then you cannot work from home in the first place..
+Tools too complex? then you aren't tech-savvy and should not work at home in the first place.
+
+
+Every subtask I work on has a link to the wiki page, shared document or git branch I am working on.
+
+Ask yourself; what could a manager, stakeholder or anyone be interested in seeing,
+being interested in being kept in the loop, updated upon?
+From our side it needs to feel spammy, but they should get the feeling that they are unburdened.
+If they ever reach out for an update, you are doing it wrong,
+even if things go wrong, they should feel like they are always up to date, on top of it!
+
+Face to face should not lead to more information,
+just to more fun.
+This will result in no business motivation to meet in person,
+just for fun.
+
+When sharing, use full HD, not a higher resolution.
+
+%00km away from office, but refuses to wear headphones, causing an echo in meetings.
+You cannot call on speaker phone since your microphone will pick up the conversation,
+causing an echo. Thus ALWAYS wear a headset for (video) calls.
+And always mute all the people who refuse to cause an echo and put in the chat:
+"Just muted @personX for causing an echo. Can you please use a headphone instead of being on speaker?"
+Please mute yourself while not speaking if not using a heaphone.
+This might feel like naming and shaming,
+but the goal of having a good experience in working from home/video conferencing is more important.
+
+In one case a colleague lived 500km from the office and wanted to continue working from home,
+but refused to wear headphones,
+which made me privately bring the importance of using a headset to his attention,
+contributing to the likelihood of continue working from home.
+
+correlation between digital literacy in video calls and age, boomers that (feel they) are in charge tend to refuse or are not aware of using headphones.
+
+when people work all in the office, the feel that they are more on the same page,
+but that's due to social cohesion,
+not actually on the subject matter.
+Gaps in knowledge, alignment and clarity is becoming more aparent in remote working that in the office,
+which actually increases productivity.
+
+When taking longer off/on holiday,
+offer to work for one or two hours
+to keep up to date, be able to answer question,
+but also to make sure you keep a healthy schedule (e.g. work from 9-10 every morning)
+
+
+https://meet.jit.si
+
+Retrospective, what went well:
+More people having headphones, equals better video conferencing experience!
+
+chain oiler
+wind deflector (one central mount, not the one with two legs)
+trottle lock?
+
+
 
 
