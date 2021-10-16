@@ -32,3 +32,4 @@ Since the protocol is open source, there are alternatives to the CovPass app
 like
 [Green Pass Wallet](https://play.google.com/store/apps/details?id=com.green_pass).
 
+![board](/img/qr_wallet.jpg "QR wallet")
