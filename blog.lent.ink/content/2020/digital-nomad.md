@@ -365,6 +365,7 @@ chain oiler
 wind deflector (one central mount, not the one with two legs)
 trottle lock?
 
-
+allow people to use without headphones;
+please mute your speakers (headphones can be still on) before unmuting your mic.
 
 
