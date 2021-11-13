@@ -21,6 +21,6 @@ waardoor degene die scant bij een voordeur automatisch een lijst bijhoudt van ie
 
 Het controleren van de scanner heeft weinig zin,
 gezien het kinderlijk eenvoudig is om een app te maken die officieel lijkt maar wel alles direct opslaat.
-Wees u dus bewust dat het laten scannen van uw QR gelijk is aan het delen van al uw namen en geboortedatum.
+Wees u dus bewust dat het laten scannen van uw **Europese** QR gelijk is aan het delen van al uw namen en geboortedatum.
 
 ![board](/img/qr_wallet.jpg "QR wallet")
