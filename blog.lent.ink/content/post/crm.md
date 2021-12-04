@@ -78,3 +78,5 @@ TODO
 Salesforce
 CRM
 Customer relationship management
+
+exit stragety, thus do not use cloud vendor native tools

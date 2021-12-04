@@ -5,9 +5,9 @@ draft: false
 tags: ["management"]
 ---
 
-Investment banking and managing assets in general require one to make decisions.
-Research has shown that making them is done best based on data,
-rather than gut feeling.
+Investment banking and managing assets generally requires one to make decisions.
+Research has shown that making decisions based on data is better
+than gut feeling.
 We measure the output of our system by the metrics provided
 and decide and act upon them.
 But let's look at the acting part.
