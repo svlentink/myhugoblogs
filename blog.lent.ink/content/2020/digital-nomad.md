@@ -369,3 +369,17 @@ allow people to use without headphones;
 please mute your speakers (headphones can be still on) before unmuting your mic.
 
 
+road assist
+when getting
+[fuel card](https://mkb-tankpas.nl/tankpassen-op-een-rij/)
+, you can have free road assist with the total fuel card,
+however you usually have edge cases (e.g. not driving a car older than x year),
+therefore I have my own [road assist](https://www.anwb.nl/wegenwacht/wegenwacht-europa-instap).
+For me there were only two financially attractive fuel cards,
+BP and Total,
+which both give access to each others gas stations
+(I avoided [DKV](https://www.evofenedex.nl/advies/voordelig-op-weg/dkv-tankpas) since it requires more paperwork for VAT restitution internationally).
+Since there was conflicting data on
+[To](https://goedkoopstetankpas.nl/tankpassen-vergelijken/)t[al]()https://www.wijsvergelijken.nl/beste-tankpas-vergelijken-aanvragen/
+
+

@@ -16,6 +16,13 @@ Follow
 [this](https://blog.mozilla.org/addons/2020/09/29/expanded-extension-support-in-firefox-for-android-nightly/)
 guide.
 
+Use 'User': 16848788
+collection: location-spoof
+
+after which we can enable the Location Guard extensions in the Add-ons under settings.
+
+
+
 ## Step02
 
 Write an extension that
