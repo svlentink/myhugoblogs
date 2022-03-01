@@ -13,13 +13,13 @@ since it is activated constantly when wearing it around my neck.
 Luckily it only takes 2 minutes and a screw driver to disable this bug.
 
 
-![Soundcore Life q30 ear cup removal](/img/soundcore-life-q30-ear-cup-removal.png "Soundcore Life q30 ear cup removal")
+![Soundcore Life q30 ear cup removal](/img/soundcore-life-q30-ear-cup-removal.jpg "Soundcore Life q30 ear cup removal")
 
 - The outer cap can be taken off by putting your nails under the edge and pulling it
 - Then we unscrew 4 screws
 - Get the speaker off
 - Poke the cable named touch, making it disconnect/broken
 
-![Soundcore Life q30 disable touch transparency](/img/soundcore-life-q30-disable-touch-transparency.png "Soundcore Life q30 disable touch transparency")
+![Soundcore Life q30 disable touch transparency](/img/soundcore-life-q30-disable-touch-transparency.jpg "Soundcore Life q30 disable touch transparency")
 
 Done!
