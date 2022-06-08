@@ -37,9 +37,9 @@ Cycle of 28 days:
   f                          |                         t
           able to work       | office Thursdays
 #                            |                           w
-          fully remote        `---  
-w                                 `---                   t
-                                      `-------------------
+          fully remote        `--__
+w                                  `--__                 t
+                                        `-----------------
   t                                                    f
           BUT staying inside EU
      mo.                                             s
