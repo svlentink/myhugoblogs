@@ -41,8 +41,8 @@ SBI-code: 72192 - Technisch speur- en ontwikkelingswerk
 ### Not needed
 
 - [Bookkeeping system](https://www.e-boekhouden.nl/prijzen), don't waste time on this when starting, this comes after you've landed your first gig
-- Invoice template, since this might be done for you by your broker (e.g. Brainnet)
-- Website, focus on a good resume/linkedin instead, but do register your domain name
+- Invoice template; since this might be done by your broker (e.g. Brainnet)
+- Website; focus on a good resume/linkedin instead, but do register your domain name
 
 
 ## 03 Getting hired
@@ -51,7 +51,7 @@ SBI-code: 72192 - Technisch speur- en ontwikkelingswerk
 
 Recruiters add value in some cases,
 but in my case they usually are a MITM.
-Examples when a recuiter might add value work;
+Examples when a recuiter might add value;
 
 - First freelance assignment and are socially awkward
 - you're scarce (e.g. specific skills like Cobol)

@@ -16,10 +16,10 @@ for becoming a software developer.
 ## Just know the minimal
 
 During my career I've come across recently graduates from other fields
-that manged to be hired as a developer who (in my opinion) had very few skills.
+that managed to be hired as a developer who (in my opinion) had very few skills.
 For example a guy that only knew how to write Python in Jupiter notebook
 and didn't know how store it as a file/script and make it executable.
-From my current experience,
+In my career
 I've seen website developers (HTML)
 or data analists who were having very little skills or very narrow,
 but still were able to get hired as a developer enabling them to start growing while working.
@@ -29,7 +29,7 @@ but still were able to get hired as a developer enabling them to start growing w
 
 If money or time is a constraint,
 keeping you from doing a full blown education or courses,
-you could learn or your own terms
+you could learn on your own terms
 (every IT subject is
 available online for free
 to learn).
@@ -89,7 +89,8 @@ that are preferred by many professionals but will have less marketing than their
 
 Another example is
 [Splunk vs. ElasticSearch](https://stackshare.io/stackups/elasticsearch-vs-splunk).
-The developers that I've spoken with that have worked with both,
+The developers that I've spoken with,
+that have worked with both,
 always preferred ElasticSearch.
 However, big corporates don't always go for the best product,
 but the best marketing/SLA.
@@ -136,6 +137,6 @@ Know all terms on the vacancy and look up all technical terms/techniques mention
 [future colleague's resume](https://lentink.consulting/resume/resume-english.html),
 so you understand their background, lingo and perspective.
 
-If you are not a network engineer,
-you don't need to know the 3 way handshake of TCP,
-but most developers should know the difference between TCP and UDP.
+For example, if you're not a network engineer,
+you don't need to know the 3 way handshake of TCP.
+But most developers should know the difference between TCP and UDP.
