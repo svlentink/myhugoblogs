@@ -81,6 +81,14 @@ To create a
 3. NIF + access code, to get the access code for you NIF, you need to fill out a form, for which you need a
 4. Portuguese phone number, which, when you want to have a sim 
 
-https://www.internations.org/portugal-expats/guide/banks-taxes
-https://www.expatica.com/pt/finance/banking/banking-in-portugal-1101590/
-https://nomadgate.com/open-portuguese-bank-account/
+- https://www.internations.org/portugal-expats/guide/banks-taxes
+- https://www.expatica.com/pt/finance/banking/banking-in-portugal-1101590/
+- https://nomadgate.com/open-portuguese-bank-account/
+
+https://prepaid-data-sim-card.fandom.com/wiki/Portugal
+Lycamobile or Uzo, of which the latter can be picked up at gas stations
+Just send an sms every 60 days and you're fine
+
+get CMD in person
+https://www.autenticacao.gov.pt/cmd-pedido-chave
+

@@ -97,6 +97,11 @@ My requirements for a Chromebook:
   - No 4k; shortens battery life
 - dark screen bezel and keyboard area (my Elitebook had a silver like finish, forcing me into dark areas)
 
+#### Update medio 2022
+
+- For a laptop I now want a **matte** touch screen, because it happened to me once that on the spot I was really helped by someone signing a document on my screen with his finger.
+- 8GB ram for my chromebook, since I need to use AzureVirtualDesktop or Citrix clients for work
+- keyboard backlight
 
 ## My (current) devices
 
