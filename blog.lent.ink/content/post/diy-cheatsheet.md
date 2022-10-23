@@ -348,6 +348,7 @@ if __name__ == '__main__':
 
 deps.:
 ```
+pip3 install setuptools wheel #needed to install flask
 pip3 install flask
 ```
 

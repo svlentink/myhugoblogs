@@ -92,3 +92,10 @@ Just send an sms every 60 days and you're fine
 get CMD in person
 https://www.autenticacao.gov.pt/cmd-pedido-chave
 
+https://eportugal.gov.pt/servicos/pedir-o-numero-de-utente-do-sns
+
+
+https://www.expat.com/forum/viewtopic.php?id=997513
+https://ind.activobank.pt/_loginV2/BlueMultichannelRecover.aspx
+
+
