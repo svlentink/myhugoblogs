@@ -37,6 +37,7 @@ having Amsterdam as working location;
 | [Kolkata](https://geotimedate.org/sun/india/west-bengal/kolkata/1275004) India | +88.4 | +5.5 | 11:20 | +6 |
 
 Observe;
+
 - India is using half an hour timezones
 - Amsterdam is 1.5h off of it's timezone and Vigo more than 2.
 - Difference Amsterdam - Mumbai
@@ -59,6 +60,7 @@ These numbers thus show a `3.5h` discrepancy!
 for remote working should thus not be based on timezones,
 but solar noon.
 Or as a rule of thumb we look at longitudes for an easy comparison for time differences;
+
 - Mumbai `(72.9-4.9)/360*24= 4.53h`
 - Recife `(-34.9-4.9)/360*24= -2.65h`
 - Matosinhos/Vigo `(-8.7-4.9)/360*24= -0.9h`
