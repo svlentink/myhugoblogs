@@ -64,15 +64,19 @@ My current demands for a phone:
 
 - MUST HAVE
   - [Android One](https://android.com/one) (clean Android with security updates), or a Google Pixel
-  - min. 4GB RAM
+  - min. 6GB RAM
   - min. 64GB storage
-  - back mounted fingerprint reader
   - not too big, should fit in my hand and pocket (max width 73mm)
   - NFC for mobile payments
+  - eSIM support (when device is lost, thieves cannot use your physical card to call payed numbers)
+  - USB C
 - SOULD HAVE
-  - USB C (convenience)
   - no more than full HD screen, more pixels (4k) is less battery life
   - more than 3000mAh battery
+  - (back mounted) fingerprint reader
+
+UPDATE q1 2023; my OnePlus phone has no ability to disable Pocket Mode anymore,
+but this feature makes my phone unusable in arm strap (while running) or on motorcycle.
 
 
 ## Laptop
@@ -87,29 +91,24 @@ like TFTP to a router or RS232 to a switch.
 My requirements for a Chromebook:
 
 - fanless (no humming sound)
-- min. 4GB ram
+- min. 4GB ram (8GB if using some kind of remote desktop)
 - min. 32GB storage
 - 64bit processor: that enables the build in Linux mode
-- matte or touch screen, no glossy screen without touch!
-  - matte screen for outdoor usage
-  - touch screens scratch less/harder finish
-- 13 or 14 inch, full HD, IPS
+- 13 or 14 inch **matte** screen, full HD, **IPS**
   - No 4k; shortens battery life
+  - touch screen if you occasionally sign documents
 - dark screen bezel and keyboard area (my Elitebook had a silver like finish, forcing me into dark areas)
-
-#### Update medio 2022
-
-- For a laptop I now want a **matte** touch screen, because it happened to me once that on the spot I was really helped by someone signing a document on my screen with his finger.
-- 8GB ram for my chromebook, since I need to use AzureVirtualDesktop or Citrix clients for work
 - keyboard backlight
+
 
 ## My (current) devices
 
-With all laptops having IPS and 4GB ram.
+With all laptops having IPS.
 
 - 2018 Acer chromebook 14 CB3-431 (219eu)
 - 2020: Motorola one action (170eu)
 - 2021: (returned) HP chromebook 14a (229eu); has a [design flaw](https://support.google.com/chromebook/thread/85957053?hl=en), which I encountered on the na0053nd and na0153nd (`CTRL+ALT+T`, `ping google.com`)
-- 2021: Lenovo chromebook s345 touchscreen (255eu)
-- 2021: Acer chromebook C314 ([204eu](https://www.amazon.nl/Acer-Chromebook-Laptop-Full-HD-Celeron/dp/B08439VSXC?))
+- 2021: Lenovo chromebook s345 touch screen 4GB (255eu)
+- 2021: Acer chromebook CB314 touch screen 8GB ([204eu](https://www.amazon.nl/Acer-Chromebook-Laptop-Full-HD-Celeron/dp/B08439VSXC?))
+- 2021: OnePlus Nord CE 5G
 
