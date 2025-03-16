@@ -15,8 +15,9 @@ Which will provide more freedom (to move abroad) and ability to buy tax deductab
 ## 01 Registering company
 
 1. Company name & domain name
-2. List of activities, denoted in [SBI](https://www.kvk.nl/overzicht-standaard-bedrijfsindeling/) codes
-3. [KVK](https://www.kvk.nl/inschrijven-en-wijzigen/inschrijven/)
+2. Decide if you want eenmanszaak or [your financial records public](https://www.kvk.nl/deponeren/jaarrekening-wel-of-niet-deponeren/)
+3. List of activities, denoted in [SBI](https://www.kvk.nl/overzicht-standaard-bedrijfsindeling/) codes
+4. [KVK](https://www.kvk.nl/inschrijven-en-wijzigen/inschrijven/)
 
 ```
 SBI-code: 6202 - Advisering en ondersteuning op het gebied van informatietechnologie
@@ -75,10 +76,14 @@ Why I prefer to find an assignment on an online platform;
 I've only used Brainnet and Headfirst up until now,
 so I cannot comment on the others.
 
-- brainnet (2.5eu overhead per worked hour)
-- headfirst (3eu overhead per worked hour)
+- magnit, formerly brainnet (2.5eu overhead per worked hour)
+- striive, formerly headfirst (3eu overhead per worked hour)
 - itstaffings
 - harvey nash
 - yacht
 - [Sweden](https://app.verama.com/en/job-requests)
+- staffingsms.com
+- [Germany](https://www.hays.de/en/)
+- Huxley.nl
+
 

@@ -1,7 +1,7 @@
 ---
 title: "WDSL to XSD to avsc"
 date: "2023-04-05"
-draft: false
+draft: true
 tags: ["coding"]
 ---
 
@@ -55,7 +55,8 @@ xmllint --format $TMPFILE > xsd.xml
 
 We will create a docker container with all tools in it;
 ```Dockerfile
-FROM openjdk:21-jdk-bullseye
+FROM openjdk:8-jdk-bullseye
+#21-jdk-bullseye
 
 #RUN apt install -y openjdk-17-jdk-headless
 
@@ -92,8 +93,8 @@ RUN apt update \
   && mv xmlschema* $JAVA_HOME/lib/ \
   && ln -s /root/.ivy /root/.ivy2
 
-ENTRYPOINT ["/opt/spark/bin/spark-shell", "--packages", "com.databricks:spark-xml_2.12:0.16.0,org.apache.spark:spark-avro_2.12:2.4.4,org.apache.ws.xmlschema:xmlschema-core:2.3.0"]
-
+ENTRYPOINT ["/opt/spark/bin/spark-shell", "--packages", "com.databricks:spark-xml_2.12:0.16.0,org.apache.spark:spark-avro_2.12:3.1.2,org.apache.ws.xmlschema:xmlschema-core:2.3.0,com.github.xmlet/xsdParser:1.2.4"]
+#com.databricks/spark-avro_2.11:4.0.0
 ```
 
 Start it;
@@ -105,6 +106,11 @@ docker run --rm -it -v $PWD:/app sbttest
 ## XSD to avro
 
 Now the [final](https://stackoverflow.com/questions/67281690/how-to-parse-xml-with-xsd-using-spark-xml-package) step;
+
+Sorry the following is messy,
+but not all XSD complex elements are supported,
+so you might need to derive it from XML,
+hence the lots of angles to try;
 ```scala
 
 import java.io.File;
@@ -114,54 +120,81 @@ import org.apache.ws.commons.schema.XmlSchemaCollection;
 import org.apache.ws._;
 import com.databricks.spark.xml._;
 import com.databricks.spark.xml.util.XSDToSchema;
-import org.apache.spark.implicits._;
 import com.databricks.spark.xml.schema_of_xml_array;
 import java.nio.file.Files;
-import com.databricks.spark.sqlContext.implicits._;
 import org.apache.spark.sql.avro._;
-
+//import com.databricks.spark.avro._;
+// the following two won't work with java 21
+import spark.implicits._; //org.apache.spark.sql.SparkSession.active
+import spark.sqlContext.implicits._;
 
 val inputfile = "xsd.xml";
+val example_data = "test-data.xml";
 val outputfile = "out.avsc";
 val schemaParsed = XSDToSchema.read(Paths.get(inputfile));
 //System.out.println(schemaParsed);
 
-//val df = spark.read.schema(schemaParsed).xml("test-data.xml");
-//spark.read.schema(schemaParsed).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load("test-data.xml").write.format("avro").save(outputfile);
+
+//val df = spark.read.schema(schemaParsed).xml(example_data);
+//spark.read.schema(schemaParsed).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load(example_data).write.format("avro").save(outputfile);
 
 //val outFile = new File(outputfile);
 //val myWriter = new FileWriter(outputfile);
 //myWriter.write(schemaParsed);
 //myWriter.close();
 
+//val schemaParsed = schema_of_xml_array(Paths.get(example_data));
+//spark.read.schema(schemaParsed).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load(example_data);
 
-
-val schemaParsed = schema_of_xml_array(Paths.get("test-data.xml"));
-spark.read.schema(schemaParsed).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load("test-data.xml");
-
-val array_of_str = Files.readAllLines(Paths.get("test-data.xml"));
+val array_of_str = Files.readAllLines(Paths.get(example_data));
 var dataset = org.apache.spark.sql.Dataset(array_of_str);
-val schemaParsed = schema_of_xml_array(Files.readAllLines(Paths.get("test-data.xml")));
+val schemaParsed = schema_of_xml_array(Files.readAllLines(Paths.get(example_data)));
 
 // identify the rootTag instead of a rowTag
-val df = spark.read.option("rowTag","someInformation").xml("test-data.xml");
+val df = spark.read.option("rowTag","someInformation").xml(example_data);
 // since in this next step we will parse the whole set at once
 
 // make sure the xml data is wrapped in '<wrapper> ... </wrapper>'
 val one_row_df = spark.read.option("rowTag","wrapper").xml("wrapped-test-data.xml");
 schema_of_xml(one_row_df[0].as[String])
 
-val list_of_str = Files.readAllLines(Paths.get("test-data.xml"));
+val list_of_str = Files.readAllLines(Paths.get(example_data));
 val payload_col = Seq(("payload", list_of_str.toArray().mkString("\n")));
 val payload_df = payload_col.toDF();
 val payloadSchema = schema_of_xml(payload_df.select("_2").as[String]);
-val filled_df = spark.read.schema(payloadSchema).format("com.databricks.spark.xml").load("test-data.xml");
-filled_df.write.format("org.apache.spark.sql.avro").save(outputfile);
-to_avro(filled_df)
+//val filled_df = spark.read.schema(payloadSchema).format("com.databricks.spark.xml").load(example_data);
+//val filled_df = spark.read.schema(payloadSchema).xml(example_data);
+val filled_df = spark.read.schema(payloadSchema).option("rowTag","USE_ROOT_TAG_BUT_NAME_IT_ROWTAG").xml(example_data);
+//filled_df.write.format("com.databricks.spark.avro").save(outputfile);
+//filled_df.write.format("org.apache.spark.sql.avro").save(outputfile); //somehow this gives a different error than the next line
+filled_df.write.format("avro").save(outputfile);
+filled_df.write.avro(outputfile);
+//to_avro(filled_df)
 
-spark.read.schema(payloadSchema).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load("test-data.xml").write.format("avro").save(outputfile);
-spark.read.schema(payloadSchema).format("com.databricks.spark.xml").load("test-data.xml").write.format("org.apache.spark.sql.avro").save(outputfile);
+spark.read.schema(payloadSchema).format("com.databricks.spark.xml").option("rowTag","elementatt").option("rootTag","wrapper").load(example_data).write.format("avro").save(outputfile);
+spark.read.schema(payloadSchema).format("com.databricks.spark.xml").load(example_data).write.format("org.apache.spark.sql.avro").save(outputfile);
 
+  def get_schema_from_xml(filepath_or_content: String = "/tmp/something.xml")
+      : org.apache.spark.sql.types.StructType = {
+    var xml_file_content = filepath_or_content;
+    if (filepath_or_content.toLowerCase().endsWith(".xml")) {
+      val list_of_str = Files.readAllLines(Paths.get(filepath_or_content));
+      xml_file_content = list_of_str.toArray().mkString("\n");
+    }
+    val payload_col = Seq(("payload", xml_file_content));
+    val payload_df = payload_col.toDF();
+    val schema = schema_of_xml(payload_df.select("_2").as[String]);
+    schema
+  }
+
+  def load_df(xml_filepath: String,
+              rootTag: String,
+              schema: org.apache.spark.sql.types.StructType = null): org.apache.spark.sql.DataFrame = {
+    if (schema != null) {
+      return spark.read.schema(schema).option("rowTag", rootTag).format("xml").load(xml_filepath);
+    }
+    spark.read.option("rowTag", rootTag).format("xml").load(xml_filepath);
+  }
 
 
 ```

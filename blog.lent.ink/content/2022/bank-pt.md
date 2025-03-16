@@ -99,3 +99,45 @@ https://www.expat.com/forum/viewtopic.php?id=997513
 https://ind.activobank.pt/_loginV2/BlueMultichannelRecover.aspx
 
 
+## Multibanco
+
+Portugal has the Multibanco system.
+Usually on a website you enter your phone number and then it states payment with Multibanco.
+This process works async. by triggering the bank app installed,
+associated with your phone number.
+
+This process is a nightmare, it happened to me so many times this failed.
+Or that I couldn't use my other bank (I have two Portuguese banks with the same phone number)
+for the payment.
+
+The main issue is the async. part of it, if it was synchronious,
+you could retrigger the payment process if you knew it would fail anyways.
+I've had multiple times I just went to the next webshop on the list of Kuantocusta
+and try it there instead.
+
+
+santander, price increase, 9eu a month
+MBway does not work
+password reset for Aegon-santander.pt did not work, final straw.
+santander can only be canceled in person with the same ID/passport it was opened with.
+
+https://en.seg-social.pt/european-health-insurance-card
+securance social NISS
+also does pension
+but sick leave is percentage of income
+https://www.seg-social.pt/pensao-de-velhice#:~:text=Quando%20o%20valor%20da%20pens%C3%A3o%2C%20calculada%20nos%20termos%20gerais%2C%20for%20de%20montante%20inferior%20aos%20valores%20m%C3%ADnimos%20garantidos%2C%20o%20respetivo%20montante%20%C3%A9%20acrescido%20de%20uma%20presta%C3%A7%C3%A3o%2C%20designada%20por%20complemento%20social%2C%20cujo%20valor%20corresponde%20%C3%A0%20diferen%C3%A7a%20entre%20o%20valor%20m%C3%ADnimo%20garantido
+minimum social
+
+forget about Tranquilidade insurance,
+they don't pay back if you sell your car but give a bank cheque, which likely requires you to open a new bank account that still accepts them.
+Only allow portugues phone numbers; https://webhub.tranquilidade.pt/#/auth/signup
+Doesn't allow for foreign IBAN numbers, just a very old expensive mess. Cheques, phonenumber and bank problems. (Dec 2024)
+
+part of salary in PT is being payed in food stamps, like a gift card ([Subsídio de Alimentação - meal card](https://www.bridgein.pt/blog/meal-allowance-in-portugal)).
+money only to be spend on food (in supermarkets).
+
+
+
+ease of doing business. problem of PT is that IRS agents only speak Portuguese, everything needs to be translated by a lawyer, Google translate pdf isn't valid
+https://data.worldbank.org/indicator/IC.BUS.EASE.XQ?end=2019&most_recent_value_desc=false&start=2019&view=chart
+

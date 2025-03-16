@@ -101,6 +101,80 @@ My requirements for a Chromebook:
 - keyboard backlight
 
 
+## Headset
+
+### Bone conduction
+
+I've used;
+- Shokz OpenMove (75eu)
+  - Easy to wash
+  - USB-C
+  - only 6h (not full day use)
+  - lowest output volume of the 3 (not loud enough)
+- Shokz OpenRun Pro (165eu)
+  - Washing makes speakers sound muffled, very annoying
+  - no USB-C
+  - Poor quality when combining with ear plugs (Radians CEP002-T or Insta-Mold Solid Earplugs)
+  - 10h battery life
+- Blitzwolf BW-BTS8 (25eu)
+  - Easy to wash
+  - no USB-C
+  - less comfortable than Shokz OpenRun
+  - 10h battery life
+  - Mic is unusable for phone calls
+
+In case you want to buy the
+[Shokz OpenRun](https://www.rtings.com/headphones/tools/compare/shokz-openrun-pro-bone-conduction-vs-shokz-openrun-bone-conduction/31212/31341?usage=19&threshold=0.10),
+buy the OpenRun and **not** the OpenRun Pro,
+since the speakers make it not true bone conducting,
+resulting in issues with water or earplugs.
+
+
+### Closed back overear
+
+I've used
+[Corsair Virtuose RGB Wireless XT](https://www.rtings.com/headphones/tools/compare/corsair-virtuoso-rgb-wireless-xt-vs-razer-blackshark-v2-hyperspeed-wireless/25347/44397?usage=19&threshold=0.10),
+which was has a too short range to walk around the house and falls of my head too easily (also too expensive).
+Used it for more than a year,
+but switched to bone conduction headset because the Corsair is just too uncomfortable.
+
+Also tried the JBL Quantom 810 wireless, which requires drivers to be installed for the USB dongle
+instead of it being a generic USB audio interface.
+So I literally wasn't able to use the USB dongle without buying a device with different OS,
+so I sent it back within a day.
+
+Currently I used the Razer BlackShark V2 HyperSpeed,
+which seals off better than the Corsair,
+is lighter,
+stays on my head,
+has a bigger range (so can walk through the house),
+better battery life,
+however the Corsair does have an indicator on the mic to show it's muted
+(while on the Razer you feel with your finger if the button pressed inward).
+The mic with it's cover is better on the razer,
+but without the big sponge,
+the Corsair is slightly better.
+For a new one, I would go for the
+[Razer BlackShark V2 Pro](https://www.youtube.com/watch?v=7_xjpBYwm5g).
+
+I was also curious about the
+[EPOS Sennheiser H3PRO Hybrid](https://nl.pepper.com/aanbiedingen/epos-sennheiser-h3pro-hybrid-gaming-headset-299592),
+because it has ANC and detachable mic,
+but the reviews were not reassuring.
+
+[My demands](https://www.rtings.com/headphones/tools/table/122857)
+for a headphone are;
+- USB dongle wireless (Windows 10 doesn't do bluetooth phone calls)
+- 50m or more range
+- Bluetooth
+- Detachable mic.
+- over ear
+- closed back
+- ANC
+- USB-C
+- 30h or more of playback time
+
+
 ## My (current) devices
 
 With all laptops having IPS.
@@ -110,5 +184,9 @@ With all laptops having IPS.
 - 2021: (returned) HP chromebook 14a (229eu); has a [design flaw](https://support.google.com/chromebook/thread/85957053?hl=en), which I encountered on the na0053nd and na0153nd (`CTRL+ALT+T`, `ping google.com`)
 - 2021: Lenovo chromebook s345 touch screen 4GB (255eu)
 - 2021: Acer chromebook CB314 touch screen 8GB ([204eu](https://www.amazon.nl/Acer-Chromebook-Laptop-Full-HD-Celeron/dp/B08439VSXC?))
-- 2021: OnePlus Nord CE 5G
+- 2021: OnePlus Nord CE 5G (never OnePlus for me again, an update made this device unusable for me)
+- 2023: Pixel 6a
+- 2023: Shokz OpenRun Pro (don't buy this one, the non-pro is waterproof and thus better!)
+- 2023: new Chromebook on the shelf, haven't used yet
+- 2024: Pixel 7a (because dual eSim)
 

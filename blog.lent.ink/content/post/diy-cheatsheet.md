@@ -123,7 +123,7 @@ We now find the right GPIO library for our board,
 for the OrangePI Zero we do:
 ```
 # https://opi-gpio.readthedocs.io/en/latest/api-documentation.html
-pip3 install OPi.GPIO
+pip3 install OPi.GPIO --break-system-packages
 ```
 We search on google for 'BOARD-NAME BOARD-VERSION pinout',
 from which we learn the pin numbers to use.

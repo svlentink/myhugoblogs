@@ -78,6 +78,10 @@ def serve_homepage():
         GPIO.output(pin,False)
         # use the following line if you do not have a door sensor
         #os.system('''nohup capture-webcam &''')
+
+        nowstr = now.isoformat()[:16]
+        with open('/var/log/door-open-triggered.txt', 'a') as f:
+          f.write(f"{nowstr}\n")
     except:
         print('Something went wrong')
     finally:
@@ -109,16 +113,25 @@ done
 import OPi.GPIO as GPIO
 import os
 import time
+import datetime
 
 pin = 23 #which is PA14 on pinout
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
+def door_open_recently_triggered(fn="/var/log/door-open-triggered.log"):
+  with open(fn,"r") as f:
+    filecontent = f.read()
+  return datetime.datetime.now().isoformat()[:16] in filecontent
+
+def door_is_open():
+  return GPIO.input(pin) == GPIO.HIGH
+
 while True:
-    if GPIO.input(pin) == False:
-        time.sleep(0.3)
-    else:
+    time.sleep(0.3)
+    if door_is_open() and door_open_recently_triggered():
         os.system('capture-webcam')
+
 
 ```
 
