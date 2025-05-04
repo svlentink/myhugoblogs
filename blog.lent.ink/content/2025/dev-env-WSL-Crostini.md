@@ -37,11 +37,11 @@ metadata:
   name: ide
 spec:
   containers:
-  - command:
+  - name: ide
+    args:
     - "--auth"
     - "none"
-    name: ide
-    image: svlentink/code-server #codercom/code-server
+    image: docker.io/svlentink/code-server #codercom/code-server
     securityContext:
         runAsUser: 0
     ports:

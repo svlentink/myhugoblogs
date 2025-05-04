@@ -382,4 +382,5 @@ which both give access to each others gas stations
 Since there was conflicting data on
 [To](https://goedkoopstetankpas.nl/tankpassen-vergelijken/)t[al]()https://www.wijsvergelijken.nl/beste-tankpas-vergelijken-aanvragen/
 
-
+Disable *Noise suppression* in your video call tool.
+This feature is for undiciplined people that use their laptop's Mic and don't mute themselves constantly.

@@ -46,6 +46,10 @@ Download it and `dd` or [xz](http://www.armhf.com/getting-started-with-ubuntu-im
 it to the SD card.
 (google 'create bootable sd card YOUR-BOARD-NAME')
 
+You probably want an Armbian image,
+then unpack the image using `unxz`
+(`apt install xz-utils`).
+
 Get a local CLI, via HDMI, usb serial console (build in or a separate USB to TTL).
 Confirm that it is booting.
 ```
@@ -107,6 +111,8 @@ iface wlan0 inet dhcp
   gateway 192.168.1.1
 ```
 
+NOTE from future: checkout Netplan that sets the sytemd network.
+
 ## step03 install 
 
 Install the basics
@@ -114,7 +120,8 @@ Install the basics
 ```
 apt update
 apt dist-upgrade -y
-apt install -y python-dev git python3-pip vim tree
+apt install -y python3-dev git python3-pip vim tree curl wget
+pip3 install --break-system-packages OPi.GPIO flask
 ```
 
 ## step04 GPIO
