@@ -1,8 +1,8 @@
 ---
-title: "Development Environment on WSL or Crostini"
-date: "2025-03-14"
+title: 'Development Environment on WSL or Crostini'
+date: '2025-03-14'
 draft: true
-tags: ["WSL", "Chromebook"]
+tags: ['WSL', 'Chromebook']
 ---
 
 Development on a Windows laptop or Chromebook works quite well,
@@ -53,6 +53,8 @@ spec:
       name: stateful
     - mountPath: /root/.gitconfig
       name: gitconf
+    - mountPath: /root/.ssh
+      name: ssh
   volumes:
   - hostPath:
       path: /mnt/stateful
@@ -60,8 +62,12 @@ spec:
     name: stateful
   - name: gitconf
     hostPath:
-      path: /mnt/stateful/.gitconfig
+      path: /mnt/.gitconfig
       type: FileOrCreate
+  - hostPath:
+      path: /mnt/.ssh
+      type: DirectoryOrCreate
+    name: ssh
 
 EOF
 ```
